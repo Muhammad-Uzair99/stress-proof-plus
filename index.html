@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html class="scroll-smooth min-[414px]:text-base text-xs">
+
+<head>
+    <meta charset='utf-8' />
+    <title>Stress-Proof Your Life: Discover Proven Techniques for Optimal Wellbeing!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
+    <meta content='Learn proven techniques to identify stress, manage its symptoms, and build resilience.'
+        name='description' />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no'
+        name='viewport' />
+    <link
+        href='https://static.wixstatic.com/media/919d4a_d49d368211e74924abddb336364543ba~mv2.png/v1/fill/w_68,h_68,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled%20design%20(4).png'
+        rel='icon' type='image/x-icon' />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+
+        let randomNumber;
+        randomNumber = Math.floor(Math.random() * (1500 - 500 + 1) + 500);
+
+        function viewers() {
+            randomNumber = randomNumber + Math.floor(Math.random() * 5);
+            document.getElementById("randomNumber").textContent = randomNumber;
+        }
+        setInterval(viewers, 1000);
+    </script>
+    
+    <!--
+    <style>
+        
+    </style>
+    -->
+
+</head>
+
+<body class="scroll-smooth bg-[#fbfbfe] text-[#050315] font-semibold relative w-full flex flex-col justify-center items-center">
+
+    <header class='w-full h-14 bg-[#fbfbfe] text-center shadow shadow-[#050315] flex justify-center sticky top-0 z-50'>
+
+        <div class='w-[96%] h-[100%] max-w-screen-lg flex flex-row justify-between items-center relative'>
+            <img class='h-[80%] aspect-square shadow shadow-[#050315]'
+                src="https://static.wixstatic.com/media/919d4a_d49d368211e74924abddb336364543ba~mv2.png/v1/fill/w_68,h_68,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled%20design%20(4).png">
+            <ul class='flex flex-row justify-between items-center gap-x-2 text-[0.65rem] text-[#fbfbfe]'>
+                <li class='flex flex-row justify-center items-center w-[6rem] h-6 bg-[#2f27ce] rounded'>
+                    <a class='flex flex-row justify-center items-center w-full h-full rounded shadow shadow-[#050315]'
+                        href='#youGet'>What You&#39;ll Get!</a>
+                </li>
+                <li class='flex flex-row justify-center items-center w-[6rem] h-6 bg-[#2f27ce] rounded relative'>
+                    <a class='flex flex-row justify-center items-center w-full h-full rounded shadow shadow-[#050315]'
+                        href='#get'>Get Now!</a>
+                    <span class='absolute -top-1.5 -right-1.5 flex h-4 w-4'>
+                        <span
+                            class='animate-ping absolute inline-flex h-full w-full rounded-full bg-[#433bff] opacity-75'></span>
+                        <span class='relative inline-flex rounded-full h-3 w-3 bg-[#433bff] m-auto'></span>
+                    </span>
+                </li>
+            </ul>
+
+            <ul class='text-[0.5rem] absolute -right-2 top-10 w-28 leading-4' id='buyers-list'>
+                <li class=''>
+                    🔥<span
+                        class='bg-gradient-to-b from-black via-black to-black inline-block text-transparent bg-clip-text'><span
+                            id='buyer0'>Alex</span> just bought!</span>🔥
+                </li>
+                <li>
+                    🔥<span
+                        class='bg-gradient-to-b from-black via-gray-700 to-gray-600 inline-block text-transparent bg-clip-text'><span
+                            id='buyer1'>Olivia</span> just bought!</span>🔥
+                </li>
+                <li
+                    class='bg-gradient-to-b from-gray-600 via-gray-300 to-white inline-block text-transparent bg-clip-text'>
+                    🔥<span id='buyer2'>Jim</span> just bought!🔥</li>
+            </ul>
+            <script>
+                const firstNames = [
+                    "Millie", "Julius", "Milani", "Kian", "Evelyn", "Bruce", "Scout", "Kamari", "Khaleesi", "Henrik", "Adelina", "Ivan",
+                    "Andrea", "Abdiel", "Lilliana", "Briar", "Zelda", "Roger", "Gwen", "Koa", "Frida", "Rory", "Kinley", "Graysen",
+                    "Nathalia", "Paxton", "Jocelyn", "Cohen", "Holland", "Uriel", "Dylan", "Ronan", "Rebecca", "Mathew", "Cecilia",
+                    "August", "Camila", "Cory", "Amiyah", "Harry", "Ella", "Davis", "Lucille", "Noe", "Shay", "Frederick", "Camilla",
+                    "Bode", "Ashlynn", "Lionel", "Makenna", "Lukas", "Angie", "Caiden", "Karen", "Kace", "Everleigh", "Nasir", "Viviana",
+                    "Everett", "Eve", "Carter", "Lauryn", "Kristopher", "Emma", "Dario", "Malayah", "Cedric", "Cecelia", "Calvin",
+                    "Kassidy", "Johnny", "Milani", "Skyler", "Denver", "Bodie", "Collins", "Trevor", "Lylah", "Zander", "Saige",
+                    "Finnegan", "Shay", "Brixton", "Kendra", "Calum", "Legacy", "Sawyer", "Adriana", "Logan", "Aria", "Soren", "Vienna",
+                    "Timothy", "Karsyn", "Albert", "Kairi", "Elisha", "Lyra", "Zaire", "Kennedy", "Kye", "Amalia", "Kendrick",
+                    "Magnolia", "Jagger", "Isabella", "Juan", "Chana", "Derrick", "Mina", "Jasper", "Haisley", "Mccoy", "Melany",
+                    "Aden", "Liberty", "Tobias", "Makenzie", "George", "Emily", "Walter", "Halo", "Seven", "Princess", "Genesis",
+                    "Raelynn", "Luke", "Makenzie", "Kolton", "Kassidy", "Julio", "Laila", "Lukas", "Kiara", "Jayden", "Maisie",
+                    "Ben", "Carolina", "Judah", "Avianna", "Grant", "Isabel", "Josiah", "Scarlet", "Wes", "Paisley", "Izaiah",
+                    "Margo", "Arthur", "Ashlyn", "Aziel", "Annika", "Jordan", "Carly", "Kyree", "Dani", "Owen", "Yasmin", "Talon",
+                    "Alaina", "Lyric", "Flora", "Kendrick", "Jordan", "Hudson", "Camilla", "Aydin", "Violet", "Kyler", "Addisyn",
+                    "Griffin", "Saige", "Cruz", "Francesca", "Aziel", "Kamiyah", "King", "Holland", "Mylo", "Journey", "Ezra", "Freya",
+                    "Leland", "Juliet", "Finnegan", "Gloria", "River", "Ensley", "Ivan", "Reign", "Adonis", "Karen", "Aden",
+                    "Francesca", "Elisha", "Kairi", "Yousef", "Brinley", "Reed", "Camille", "Alex", "Claire", "Brendan", "Anaya",
+                    "Santino", "Melody", "Kobe", "Ariella", "Hakeem", "Coraline", "Tyson", "Gemma", "Anakin", "Julianna", "Patrick",
+                    "Adele", "Elisha", "Maddison", "Julius", "Monroe", "Aziel", "Talia", "Blaine", "Lea", "Peyton", "Cynthia", "Chris",
+                    "Brooke", "Blaine", "Kaitlyn", "Cain", "Ashlyn", "Marvin", "Quinn", "Memphis", "Amaris", "Diego", "Gemma",
+                    "Misael", "Evangeline", "Hunter", "Kai", "Arlo", "Giavanna", "Troy", "Giana", "Jaxx", "Eden", "Thaddeus",
+                    "Hadley", "Jacob", "Jessie", "Kamari", "Brielle", "Jovanni", "Clementine", "Lucas", "Sarai", "Magnus",
+                    "Alejandra", "Larry", "Stormi", "Raylan", "Elisabeth", "Gregory", "Elsa", "Daxton", "Whitney", "Ibrahim",
+                    "Clarissa", "Kyng", "Amaris", "Alijah", "Mavis", "Johnny", "Elliana", "Kase", "Bellamy", "Apollo", "Ila", "Rowen",
+                    "Hannah", "Wes", "Virginia", "Hezekiah", "Esme", "Quentin", "Adelina", "Robin", "Denisse", "Lennon", "Makayla",
+                    "Francisco", "Ophelia", "Trace", "Baylee", "Bentlee", "Kehlani", "Desmond", "Alicia", "Alexander", "Katie",
+                    "Jordan", "Jaylah", "Kaleb", "Alina", "Dalton", "Anais", "Skyler", "Karla", "Deacon", "Harmony", "Makai",
+                    "Irene", "Landry", "Lauryn", "Azariah", "Carter", "Jakob", "Kensley", "Frederick", "Andrea", "Layton",
+                    "Kailani", "Bodhi", "Gianna", "River", "Keira", "Leif", "Ailani", "Seth", "Alison", "Otis", "Elaine", "Archer",
+                    "Freyja", "Bellamy", "Mercy", "Angelo", "Madilyn", "Jorge", "Ramona", "Paxton", "Frances", "Gunnar", "Dior",
+                    "Foster", "Hanna", "Cannon", "Aniya", "Jax", "Emelia", "Jackson", "Ashlyn", "Alonzo", "Esperanza", "Raiden",
+                    "Eliana", "Kylian", "Cheyenne", "Salem", "Brooklyn", "Eduardo", "Queen", "Winston", "Ada", "Dayton", "Drew",
+                    "Kieran", "Rowan", "Amos", "Makayla", "Tomas", "Katie", "Bryce", "Madeline", "Landon", "Presley", "Tyson",
+                    "Bristol", "Braylon", "Layne", "Kairo", "Sutton", "Edgar", "Lacey", "Nehemiah", "Valerie", "Moshe", "Etta",
+                    "Moshe", "Itzayana", "Asher", "Remy", "Charlie", "Maxine", "Blaze", "Nellie", "Bryan", "Saylor", "Harvey",
+                    "Angelica", "Jesus", "Paisleigh", "Jason", "Oaklee", "Ryan", "Sofia", "Thiago", "Allyson", "Vihaan", "Isabella",
+                    "Finnegan", "Daniella", "Jeffrey", "Jaylah", "Declan", "Elaine", "Walter", "Saylor", "Kiaan", "Denise", "Jett",
+                    "Jacqueline", "Marcelo", "Lila", "Asher", "Yareli", "Jett", "Alaiya", "Jax", "Katie", "Ridge", "Imani", "Levi",
+                    "Kinsley", "Emilio", "Karsyn", "Dario", "Daniella", "Watson", "Daleyza", "Saint", "Kai", "Nikolai", "Bianca",
+                    "Atreus", "Lina", "Chance", "Artemis", "Keenan", "Leila", "Ruben", "Kassidy", "Avi", "Marie", "Alejandro",
+                    "Elliot", "Kye", "Giselle", "Malachi", "Oaklyn", "Francisco", "Chana", "Alonso", "Kara", "Zaiden", "Lila",
+                    "Maddox", "Mia", "Russell", "Adaline", "Zion", "Denisse", "Niklaus", "Charley", "Brett",
+                ];
+
+                let index = 0;
+
+                function rotateNames() {
+                    const buyer0 = document.getElementById("buyer0");
+                    const buyer1 = document.getElementById("buyer1");
+                    const buyer2 = document.getElementById("buyer2");
+
+                    buyer2.textContent = buyer1.textContent;
+                    buyer1.textContent = buyer0.textContent;
+                    buyer0.textContent = firstNames[index];
+
+                    index = (index + 1) % firstNames.length;
+                }
+
+                setInterval(rotateNames, 1000);
+            </script>
+        </div>
+
+    </header>
+
+    <main class='block w-full leading-relaxed'>
+        <section class="pt-4 mb-8">
+            <div class="max-w-[1012px] w-full px-2 mx-auto">
+                <p
+                    class="text-[#fbfbfe] text-sm text-center bg-[#2f27ce] min-h-16 flex items-center justify-center p-2 mb-6 rounded shadow shadow-[#050315]">
+                    <span><strong>ATTENTION:</strong> Professionals / Students / Caregivers seeking solutions to stress,
+                        anxiety, and the everyday problems that plague them...</span>
+                </p>
+
+                <div class="w-full mb-8 flex justify-between items-center">
+                    <div class="w-[44%]">
+                        <h1 class="text-xl md:text-2xl lg:text-4xl mb-2 font-extrabold">Stress-Proof Your Life: Discover
+                            Proven Techniques for Optimal Wellbeing!</h1>
+                        <p class="mb-3 font-normal min-[301px]:text-lg">with my 6-steps technique to Manage Stress Effectively and Thrive in
+                            Any Situation!<br /><span class="font-extrabold">Download- HD Video Course!</span></p>
+
+                        <button
+                            class="w-full max-w-96 p-2 w-full h-14 bg-[#2f27ce] mb-3 text-black rounded shadow shadow-[#050315]">
+                            <a class="text-[#fbfbfe] w-full h-full block flex justify-center items-center py-4"
+                                href="https://www.checkout-ds24.com/product/575408">
+                                Click Here To Get Instant Access!
+                            </a>
+                        </button>
+
+                        <div class="w-full max-w-96 mb-3 flex justify-center items-center gap-x-2">
+                            <div class="w-7 inline-block">
+                                <svg viewBox="0 -140 780 780" enable-background="new 0 0 780 500" version="1.1"
+                                    xml:space="preserve" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="rounded" stroke-linejoin="rounded">
+                                    </g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <rect width="780" height="500" fill="#0E4595"></rect>
+                                        <path
+                                            d="m293.2 348.73l33.361-195.76h53.36l-33.385 195.76h-53.336zm246.11-191.54c-10.57-3.966-27.137-8.222-47.822-8.222-52.725 0-89.865 26.55-90.18 64.603-0.299 28.13 26.514 43.822 46.752 53.186 20.771 9.595 27.752 15.714 27.654 24.283-0.131 13.121-16.586 19.116-31.922 19.116-21.357 0-32.703-2.967-50.227-10.276l-6.876-3.11-7.489 43.823c12.463 5.464 35.51 10.198 59.438 10.443 56.09 0 92.5-26.246 92.916-66.882 0.199-22.269-14.016-39.216-44.801-53.188-18.65-9.055-30.072-15.099-29.951-24.268 0-8.137 9.668-16.839 30.557-16.839 17.449-0.27 30.09 3.535 39.938 7.5l4.781 2.26 7.232-42.429m137.31-4.223h-41.232c-12.773 0-22.332 3.487-27.941 16.234l-79.244 179.4h56.031s9.16-24.123 11.232-29.418c6.125 0 60.555 0.084 68.338 0.084 1.596 6.853 6.49 29.334 6.49 29.334h49.514l-43.188-195.64zm-65.418 126.41c4.412-11.279 21.26-54.723 21.26-54.723-0.316 0.522 4.379-11.334 7.074-18.684l3.605 16.879s10.219 46.729 12.354 56.528h-44.293zm-363.3-126.41l-52.24 133.5-5.567-27.13c-9.725-31.273-40.025-65.155-73.898-82.118l47.766 171.2 56.456-0.064 84.004-195.39h-56.521"
+                                            fill="#ffffff"></path>
+                                        <path
+                                            d="m146.92 152.96h-86.041l-0.681 4.073c66.938 16.204 111.23 55.363 129.62 102.41l-18.71-89.96c-3.23-12.395-12.597-16.094-24.186-16.527"
+                                            fill="#F2AE14"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="w-7 inline-block mx-1">
+                                <svg viewBox="0 -140 780 780" enable-background="new 0 0 780 500" version="1.1"
+                                    xml:space="preserve" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="rounded" stroke-linejoin="rounded">
+                                    </g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <rect width="780" height="500" fill="#16366F"></rect>
+                                        <path
+                                            d="m449.01 250c0 99.143-80.37 179.5-179.51 179.5s-179.5-80.361-179.5-179.5c0-99.133 80.362-179.5 179.5-179.5 99.137 0 179.51 80.37 179.51 179.5"
+                                            fill="#D9222A"></path>
+                                        <path
+                                            d="m510.49 70.496c-46.38 0-88.643 17.596-120.5 46.466-6.49 5.889-12.548 12.237-18.125 18.996h36.266c4.966 6.037 9.536 12.388 13.685 19.013h-63.635c-3.827 6.121-7.28 12.469-10.341 19.008h84.312c2.893 6.185 5.431 12.53 7.6 19.004h-99.512c-2.091 6.235-3.832 12.581-5.217 19.009h109.94c2.689 12.49 4.044 25.231 4.041 38.008 0 19.934-3.254 39.113-9.254 57.02h-99.512c2.164 6.479 4.7 12.825 7.595 19.01h84.317c-3.064 6.54-6.52 12.889-10.347 19.013h-63.625c4.154 6.629 8.73 12.979 13.685 18.996h36.258c-5.57 6.772-11.63 13.126-18.13 19.012 31.86 28.867 74.118 46.454 120.5 46.454 99.138-1e-3 179.51-80.362 179.51-179.5 0-99.13-80.37-179.5-179.51-179.5"
+                                            fill="#EE9F2D"></path>
+                                        <path
+                                            d="m666.08 350.06c0-3.201 2.592-5.801 5.796-5.801s5.796 2.6 5.796 5.801c0 3.199-2.592 5.799-5.796 5.799-3.202-1e-3 -5.797-2.598-5.796-5.799zm5.796 4.408c2.435-1e-3 4.407-1.975 4.408-4.408 0-2.433-1.972-4.404-4.404-4.404h-4e-3c-2.429-4e-3 -4.4 1.963-4.404 4.392v0.013c-3e-3 2.432 1.967 4.406 4.399 4.408 1e-3 -1e-3 3e-3 -1e-3 5e-3 -1e-3zm-0.783-1.86h-1.188v-5.094h2.149c0.45 0 0.908 0 1.305 0.254 0.413 0.278 0.646 0.77 0.646 1.278 0 0.57-0.337 1.104-0.883 1.312l0.937 2.25h-1.315l-0.78-2.016h-0.87v2.016h-1e-3zm0-2.89h0.658c0.246 0 0.504 0.02 0.725-0.1 0.196-0.125 0.296-0.359 0.296-0.584 0-0.195-0.12-0.42-0.288-0.516-0.207-0.131-0.536-0.101-0.758-0.101h-0.633v1.301zm-443.5-80.063c-2.045-0.237-2.945-0.301-4.35-0.301-11.045 0-16.637 3.789-16.637 11.268 0 4.611 2.73 7.546 6.987 7.546 7.938 0 13.659-7.56 14-18.513zm14.171 32.996h-16.146l0.371-7.676c-4.925 6.067-11.496 8.95-20.425 8.95-10.562 0-17.804-8.25-17.804-20.229 0-18.024 12.596-28.54 34.217-28.54 2.208 0 5.041 0.2 7.941 0.569 0.605-2.441 0.763-3.486 0.763-4.8 0-4.908-3.396-6.738-12.5-6.738-9.533-0.108-17.396 2.271-20.625 3.334 0.204-1.23 2.7-16.658 2.7-16.658 9.712-2.846 16.117-3.917 23.325-3.917 16.733 0 25.596 7.512 25.58 21.712 0.032 3.805-0.597 8.5-1.58 14.671-1.692 10.731-5.32 33.718-5.817 39.322zm-62.158 0h-19.488l11.163-69.997-24.925 69.997h-13.28l-1.64-69.597-11.734 69.597h-18.242l15.238-91.054h28.02l1.7 50.966 17.092-50.966h31.167l-15.071 91.054m354.98-32.996c-2.037-0.237-2.942-0.301-4.342-0.301-11.041 0-16.634 3.789-16.634 11.268 0 4.611 2.726 7.546 6.983 7.546 7.939 0 13.664-7.56 13.993-18.513zm14.183 32.996h-16.145l0.365-7.676c-4.925 6.067-11.5 8.95-20.42 8.95-10.566 0-17.8-8.25-17.8-20.229 0-18.024 12.587-28.54 34.212-28.54 2.208 0 5.037 0.2 7.934 0.569 0.604-2.441 0.763-3.486 0.763-4.8 0-4.908-3.392-6.738-12.496-6.738-9.533-0.108-17.388 2.271-20.63 3.334 0.205-1.23 2.709-16.658 2.709-16.658 9.713-2.846 16.113-3.917 23.312-3.917 16.741 0 25.604 7.512 25.588 21.712 0.032 3.805-0.597 8.5-1.58 14.671-1.682 10.731-5.32 33.718-5.812 39.322zm-220.39-1.125c-5.334 1.68-9.492 2.399-14 2.399-9.963 0-15.4-5.725-15.4-16.267-0.142-3.27 1.433-11.879 2.67-19.737 1.125-6.917 8.45-50.53 8.45-50.53h19.371l-2.262 11.209h11.7l-2.643 17.796h-11.742c-2.25 14.083-5.454 31.625-5.491 33.95 0 3.817 2.037 5.483 6.67 5.483 2.221 0 3.941-0.226 5.255-0.7l-2.578 16.397m59.391-0.6c-6.654 2.033-13.075 3.017-19.879 3-21.683-0.021-32.987-11.346-32.987-33.032 0-25.313 14.38-43.947 33.9-43.947 15.97 0 26.17 10.433 26.17 26.796 0 5.429-0.7 10.729-2.387 18.212h-38.575c-1.304 10.742 5.57 15.217 16.837 15.217 6.935 0 13.188-1.43 20.142-4.663l-3.221 18.417zm-10.887-43.9c0.107-1.543 2.054-13.217-9.013-13.217-6.171 0-10.583 4.704-12.38 13.217h21.393zm-123.42-5.017c0 9.367 4.541 15.825 14.841 20.676 7.892 3.709 9.113 4.809 9.113 8.17 0 4.617-3.48 6.7-11.192 6.7-5.812 0-11.22-0.907-17.458-2.92 0 0-2.563 16.32-2.68 17.101 4.43 0.966 8.38 1.861 20.28 2.19 20.562 0 30.058-7.829 30.058-24.75 0-10.175-3.975-16.146-13.737-20.633-8.171-3.75-9.109-4.588-9.109-8.046 0-4.004 3.238-6.046 9.538-6.046 3.825 0 9.05 0.408 14 1.113l2.775-17.175c-5.046-0.8-12.696-1.442-17.15-1.442-21.8 0-29.346 11.387-29.279 25.062m229.09-23.116c5.413 0 10.459 1.42 17.413 4.92l3.187-19.762c-2.854-1.12-12.904-7.7-21.416-7.7-13.042 0-24.066 6.47-31.82 17.15-11.31-3.746-15.959 3.825-21.659 11.367l-5.062 1.179c0.383-2.483 0.73-4.95 0.613-7.446h-17.896c-2.445 22.917-6.779 46.13-10.171 69.075l-0.884 4.976h19.496c3.254-21.143 5.038-34.681 6.121-43.842l7.342-4.084c1.096-4.08 4.529-5.458 11.416-5.292-0.926 5.008-1.389 10.09-1.383 15.184 0 24.225 13.071 39.308 34.05 39.308 5.404 0 10.042-0.712 17.221-2.657l3.431-20.76c-6.46 3.18-11.761 4.676-16.561 4.676-11.328 0-18.183-8.362-18.183-22.184-1e-3 -20.05 10.195-34.108 24.745-34.108">
+                                        </path>
+                                        <path
+                                            d="m185.21 297.24h-19.491l11.17-69.988-24.925 69.988h-13.282l-1.642-69.588-11.733 69.588h-18.243l15.238-91.042h28.02l0.788 56.362 18.904-56.362h30.267l-15.071 91.042"
+                                            fill="#ffffff"></path>
+                                        <path
+                                            d="m647.52 211.6l-4.319 26.308c-5.33-7.012-11.054-12.087-18.612-12.087-9.834 0-18.784 7.454-24.642 18.425-8.158-1.692-16.597-4.563-16.597-4.563l-4e-3 0.067c0.658-6.133 0.92-9.875 0.862-11.146h-17.9c-2.437 22.917-6.77 46.13-10.157 69.075l-0.893 4.976h19.492c2.633-17.097 4.65-31.293 6.133-42.551 6.659-6.017 9.992-11.267 16.721-10.917-2.979 7.206-4.725 15.504-4.725 24.017 0 18.513 9.367 30.725 23.534 30.725 7.141 0 12.62-2.462 17.966-8.17l-0.912 6.884h18.433l14.842-91.043h-19.222zm-24.37 73.942c-6.634 0-9.983-4.909-9.983-14.597 0-14.553 6.271-24.875 15.112-24.875 6.695 0 10.32 5.104 10.32 14.508 1e-3 14.681-6.369 24.964-15.449 24.964z">
+                                        </path>
+                                        <path
+                                            d="m233.19 264.26c-2.042-0.236-2.946-0.3-4.346-0.3-11.046 0-16.634 3.788-16.634 11.267 0 4.604 2.73 7.547 6.98 7.547 7.945-1e-3 13.666-7.559 14-18.514zm14.179 32.984h-16.146l0.367-7.663c-4.921 6.054-11.5 8.95-20.421 8.95-10.567 0-17.804-8.25-17.804-20.229 0-18.032 12.591-28.542 34.216-28.542 2.209 0 5.042 0.2 7.938 0.571 0.604-2.442 0.762-3.487 0.762-4.808 0-4.908-3.391-6.73-12.496-6.73-9.537-0.108-17.395 2.272-20.629 3.322 0.204-1.226 2.7-16.638 2.7-16.638 9.709-2.858 16.121-3.93 23.321-3.93 16.738 0 25.604 7.518 25.588 21.705 0.029 3.82-0.605 8.512-1.584 14.675-1.687 10.725-5.32 33.725-5.812 39.317zm261.38-88.592l-3.192 19.767c-6.95-3.496-12-4.921-17.407-4.921-14.551 0-24.75 14.058-24.75 34.107 0 13.821 6.857 22.181 18.183 22.181 4.8 0 10.096-1.492 16.554-4.677l-3.42 20.75c-7.184 1.959-11.816 2.672-17.226 2.672-20.976 0-34.05-15.084-34.05-39.309 0-32.55 18.059-55.3 43.888-55.3 8.507 1e-3 18.562 3.609 21.42 4.73m31.442 55.608c-2.041-0.236-2.941-0.3-4.346-0.3-11.042 0-16.634 3.788-16.634 11.267 0 4.604 2.729 7.547 6.984 7.547 7.937-1e-3 13.662-7.559 13.996-18.514zm14.179 32.984h-16.15l0.37-7.663c-4.924 6.054-11.5 8.95-20.42 8.95-10.563 0-17.804-8.25-17.804-20.229 0-18.032 12.595-28.542 34.212-28.542 2.213 0 5.042 0.2 7.941 0.571 0.601-2.442 0.763-3.487 0.763-4.808 0-4.908-3.392-6.73-12.496-6.73-9.533-0.108-17.396 2.272-20.629 3.322 0.204-1.226 2.704-16.638 2.704-16.638 9.709-2.858 16.116-3.93 23.316-3.93 16.742 0 25.604 7.518 25.583 21.705 0.034 3.82-0.595 8.512-1.579 14.675-1.682 10.725-5.324 33.725-5.811 39.317zm-220.39-1.122c-5.338 1.68-9.496 2.409-14 2.409-9.963 0-15.4-5.726-15.4-16.266-0.138-3.281 1.437-11.881 2.675-19.738 1.12-6.926 8.446-50.533 8.446-50.533h19.367l-2.259 11.212h9.942l-2.646 17.788h-9.975c-2.25 14.091-5.463 31.619-5.496 33.949 0 3.83 2.042 5.483 6.671 5.483 2.22 0 3.938-0.217 5.254-0.692l-2.579 16.388m59.392-0.591c-6.65 2.033-13.08 3.013-19.88 3-21.684-0.021-32.987-11.346-32.987-33.033 0-25.321 14.38-43.95 33.9-43.95 15.97 0 26.17 10.429 26.17 26.8 0 5.433-0.7 10.733-2.382 18.212h-38.575c-1.306 10.741 5.569 15.221 16.837 15.221 6.93 0 13.188-1.434 20.137-4.676l-3.22 18.426zm-10.892-43.912c0.117-1.538 2.059-13.217-9.013-13.217-6.166 0-10.579 4.717-12.375 13.217h21.388zm-123.42-5.004c0 9.365 4.542 15.816 14.842 20.675 7.891 3.708 9.112 4.812 9.112 8.17 0 4.617-3.483 6.7-11.187 6.7-5.817 0-11.225-0.908-17.467-2.92 0 0-2.554 16.32-2.67 17.1 4.42 0.967 8.374 1.85 20.274 2.191 20.567 0 30.059-7.829 30.059-24.746 0-10.18-3.971-16.15-13.738-20.637-8.167-3.758-9.112-4.583-9.112-8.046 0-4 3.245-6.058 9.541-6.058 3.821 0 9.046 0.42 14.004 1.125l2.771-17.18c-5.041-0.8-12.691-1.441-17.146-1.441-21.804 0-29.345 11.379-29.283 25.067m398.45 50.629h-18.437l0.917-6.893c-5.347 5.717-10.825 8.18-17.967 8.18-14.168 0-23.53-12.213-23.53-30.725 0-24.63 14.521-45.393 31.709-45.393 7.558 0 13.28 3.088 18.604 10.096l4.325-26.308h19.221l-14.842 91.043zm-28.745-17.109c9.075 0 15.45-10.283 15.45-24.953 0-9.405-3.63-14.509-10.325-14.509-8.838 0-15.116 10.317-15.116 24.875-1e-3 9.686 3.357 14.587 9.991 14.587zm-56.843-56.929c-2.439 22.917-6.773 46.13-10.162 69.063l-0.891 4.975h19.491c6.971-45.275 8.658-54.117 19.588-53.009 1.742-9.266 4.982-17.383 7.399-21.479-8.163-1.7-12.721 2.913-18.688 11.675 0.471-3.787 1.334-7.466 1.163-11.225h-17.9m-160.42 0c-2.446 22.917-6.78 46.13-10.167 69.063l-0.887 4.975h19.5c6.962-45.275 8.646-54.117 19.569-53.009 1.75-9.266 4.992-17.383 7.4-21.479-8.154-1.7-12.716 2.913-18.678 11.675 0.47-3.787 1.325-7.466 1.162-11.225h-17.899m254.57 68.242c0-3.214 2.596-5.8 5.796-5.8 3.197-3e-3 5.792 2.587 5.795 5.785v0.015c-1e-3 3.2-2.595 5.794-5.795 5.796-3.2-2e-3 -5.794-2.596-5.796-5.796zm5.796 4.404c2.432 1e-3 4.403-1.97 4.403-4.401v-2e-3c3e-3 -2.433-1.968-4.406-4.399-4.408h-4e-3c-2.435 1e-3 -4.408 1.974-4.409 4.408 3e-3 2.432 1.976 4.403 4.409 4.403zm-0.784-1.87h-1.188v-5.084h2.154c0.446 0 0.908 8e-3 1.296 0.254 0.416 0.283 0.654 0.767 0.654 1.274 0 0.575-0.338 1.113-0.888 1.317l0.941 2.236h-1.319l-0.78-2.008h-0.87v2.008 3e-3zm0-2.88h0.654c0.245 0 0.513 0.018 0.729-0.1 0.195-0.125 0.295-0.361 0.295-0.587-9e-3 -0.21-0.115-0.404-0.287-0.524-0.204-0.117-0.542-0.085-0.763-0.085h-0.629v1.296h1e-3z"
+                                            fill="#ffffff"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="w-7 inline-block mx-1">
+                                <svg viewBox="0 -140 780 780" enable-background="new 0 0 780 500" version="1.1"
+                                    xml:space="preserve" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="rounded" stroke-linejoin="rounded">
+                                    </g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <rect width="780" height="500" fill="#FFF"></rect>
+                                        <path
+                                            d="m168.38 169.85c-8.399-5.774-19.359-8.668-32.88-8.668h-52.346c-4.145 0-6.435 2.073-6.87 6.214l-21.265 133.48c-0.221 1.311 0.107 2.51 0.981 3.6 0.869 1.093 1.962 1.636 3.271 1.636h24.864c4.361 0 6.758-2.068 7.198-6.216l5.888-35.985c0.215-1.744 0.982-3.162 2.291-4.254 1.308-1.09 2.944-1.804 4.907-2.13 1.963-0.324 3.814-0.487 5.562-0.487 1.743 0 3.814 0.11 6.217 0.327 2.397 0.218 3.925 0.324 4.58 0.324 18.756 0 33.478-5.285 44.167-15.866 10.684-10.577 16.032-25.244 16.032-44.004 0-12.868-4.202-22.192-12.597-27.975zm-26.99 40.08c-1.094 7.635-3.926 12.649-8.506 15.049-4.581 2.403-11.124 3.597-19.629 3.597l-10.797 0.328 5.563-35.007c0.434-2.397 1.851-3.597 4.252-3.597h6.218c8.72 0 15.049 1.257 18.975 3.761 3.924 2.51 5.233 7.802 3.924 15.869z"
+                                            fill="#003087"></path>
+                                        <path
+                                            d="m720.79 161.18h-24.208c-2.405 0-3.821 1.2-4.253 3.599l-21.267 136.1-0.328 0.654c0 1.096 0.437 2.127 1.311 3.109 0.868 0.979 1.963 1.471 3.271 1.471h21.595c4.138 0 6.429-2.068 6.871-6.215l21.265-133.81v-0.325c-2e-3 -3.053-1.424-4.58-4.257-4.58z"
+                                            fill="#009CDE"></path>
+                                        <path
+                                            d="m428.31 213.86c0-1.088-0.438-2.126-1.306-3.106-0.875-0.981-1.857-1.474-2.945-1.474h-25.191c-2.404 0-4.366 1.096-5.89 3.271l-34.679 51.04-14.394-49.075c-1.096-3.488-3.493-5.236-7.198-5.236h-24.54c-1.093 0-2.075 0.492-2.942 1.474-0.875 0.98-1.309 2.019-1.309 3.106 0 0.44 2.127 6.871 6.379 19.303 4.252 12.434 8.833 25.848 13.741 40.244 4.908 14.394 7.468 22.031 7.688 22.898-17.886 24.43-26.826 37.518-26.826 39.26 0 2.838 1.417 4.254 4.253 4.254h25.191c2.399 0 4.361-1.088 5.89-3.271l83.427-120.4c0.433-0.433 0.651-1.193 0.651-2.289z"
+                                            fill="#003087"></path>
+                                        <path
+                                            d="m662.89 209.28h-24.865c-3.056 0-4.904 3.599-5.559 10.797-5.677-8.72-16.031-13.088-31.083-13.088-15.704 0-29.065 5.89-40.077 17.668-11.016 11.779-16.521 25.631-16.521 41.551 0 12.871 3.761 23.121 11.285 30.752 7.524 7.639 17.611 11.451 30.266 11.451 6.323 0 12.757-1.311 19.3-3.926 6.544-2.617 11.665-6.105 15.379-10.469 0 0.219-0.222 1.198-0.654 2.942-0.44 1.748-0.655 3.06-0.655 3.926 0 3.494 1.414 5.234 4.254 5.234h22.576c4.138 0 6.541-2.068 7.193-6.216l13.415-85.389c0.215-1.309-0.111-2.507-0.981-3.599-0.876-1.087-1.964-1.634-3.273-1.634zm-42.694 64.452c-5.562 5.453-12.269 8.179-20.12 8.179-6.328 0-11.449-1.742-15.377-5.234-3.928-3.483-5.891-8.282-5.891-14.396 0-8.064 2.727-14.884 8.181-20.446 5.446-5.562 12.214-8.343 20.284-8.343 6.102 0 11.174 1.8 15.212 5.397 4.032 3.599 6.055 8.563 6.055 14.888-1e-3 7.851-2.783 14.505-8.344 19.955z"
+                                            fill="#009CDE"></path>
+                                        <path
+                                            d="m291.23 209.28h-24.864c-3.058 0-4.908 3.599-5.563 10.797-5.889-8.72-16.25-13.088-31.081-13.088-15.704 0-29.065 5.89-40.078 17.668-11.016 11.779-16.521 25.631-16.521 41.551 0 12.871 3.763 23.121 11.288 30.752 7.525 7.639 17.61 11.451 30.262 11.451 6.104 0 12.433-1.311 18.975-3.926 6.543-2.617 11.778-6.105 15.704-10.469-0.875 2.616-1.309 4.907-1.309 6.868 0 3.494 1.417 5.234 4.253 5.234h22.574c4.141 0 6.543-2.068 7.198-6.216l13.413-85.389c0.215-1.309-0.112-2.507-0.981-3.599-0.873-1.087-1.962-1.634-3.27-1.634zm-42.695 64.614c-5.563 5.351-12.382 8.017-20.447 8.017-6.329 0-11.4-1.742-15.214-5.234-3.819-3.483-5.726-8.282-5.726-14.396 0-8.064 2.725-14.884 8.18-20.446 5.449-5.562 12.211-8.343 20.284-8.343 6.104 0 11.175 1.8 15.214 5.398 4.032 3.599 6.052 8.563 6.052 14.888 0 8.069-2.781 14.778-8.343 20.116z"
+                                            fill="#003087"></path>
+                                        <path
+                                            d="m540.04 169.85c-8.398-5.774-19.356-8.668-32.879-8.668h-52.02c-4.364 0-6.765 2.073-7.197 6.214l-21.266 133.48c-0.221 1.312 0.106 2.511 0.981 3.601 0.865 1.092 1.962 1.635 3.271 1.635h26.826c2.617 0 4.361-1.416 5.235-4.252l5.89-37.949c0.216-1.744 0.98-3.162 2.29-4.254 1.309-1.09 2.943-1.803 4.908-2.13 1.962-0.324 3.812-0.487 5.562-0.487 1.743 0 3.814 0.11 6.214 0.327 2.399 0.218 3.931 0.324 4.58 0.324 18.76 0 33.479-5.285 44.168-15.866 10.688-10.577 16.031-25.244 16.031-44.004 2e-3 -12.867-4.199-22.191-12.594-27.974zm-33.534 53.82c-4.799 3.271-11.997 4.906-21.592 4.906l-10.47 0.328 5.562-35.007c0.432-2.397 1.849-3.597 4.252-3.597h5.887c4.798 0 8.614 0.218 11.454 0.653 2.831 0.44 5.562 1.799 8.179 4.089 2.618 2.291 3.926 5.618 3.926 9.98 0 9.16-2.402 15.375-7.198 18.648z"
+                                            fill="#009CDE"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="w-7 inline-block">
+                                <svg viewBox="0 -140 780 780" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="rounded" stroke-linejoin="rounded">
+                                    </g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g fill-rule="evenodd">
+                                            <path
+                                                d="M54.992 0C0 0 0 0 0 0v0C0 0 0 0 0 501h670.016C755.373 501 780 476.37 780 445.996V0C0 0 755.381 0 725.008 0H54.992z"
+                                                fill="#4D4D4D"></path>
+                                            <path
+                                                d="M327.152 161.893c8.837 0 16.248 1.784 25.268 6.09v22.751c-8.544-7.863-15.955-11.154-25.756-11.154-19.264 0-34.414 15.015-34.414 34.05 0 20.075 14.681 34.196 35.37 34.196 9.312 0 16.586-3.12 24.8-10.857v22.763c-9.341 4.14-16.911 5.776-25.756 5.776-31.278 0-55.582-22.596-55.582-51.737 0-28.826 24.951-51.878 56.07-51.878zm-97.113.627c11.546 0 22.11 3.72 30.943 10.994l-10.748 13.248c-5.35-5.646-10.41-8.028-16.564-8.028-8.853 0-15.3 4.745-15.3 10.989 0 5.354 3.619 8.188 15.944 12.482 23.365 8.044 30.29 15.176 30.29 30.926 0 19.193-14.976 32.553-36.32 32.553-15.63 0-26.994-5.795-36.458-18.872l13.268-12.03c4.73 8.61 12.622 13.222 22.42 13.222 9.163 0 15.947-5.952 15.947-13.984 0-4.164-2.055-7.734-6.158-10.258-2.066-1.195-6.158-2.977-14.2-5.647-19.291-6.538-25.91-13.527-25.91-27.185 0-16.225 14.214-28.41 32.846-28.41zm234.723 1.728h22.437l28.084 66.592 28.446-66.592h22.267l-45.494 101.686h-11.053l-44.687-101.686zm-397.348.152h30.15c33.312 0 56.534 20.382 56.534 49.641 0 14.59-7.104 28.696-19.118 38.057-10.108 7.901-21.626 11.445-37.574 11.445H67.414V164.4zm96.135 0h20.54v99.143h-20.54V164.4zm411.734 0h58.252v16.8H595.81v22.005h36.336v16.791h-36.336v26.762h37.726v16.785h-58.252V164.4zm71.858 0h30.455c23.69 0 37.265 10.71 37.265 29.272 0 15.18-8.514 25.14-23.986 28.105l33.148 41.766h-25.26l-28.429-39.828h-2.678v39.828h-20.515V164.4zm20.515 15.616v30.025h6.002c13.117 0 20.069-5.362 20.069-15.328 0-9.648-6.954-14.697-19.745-14.697h-6.326zM87.94 181.199v65.559h5.512c13.273 0 21.656-2.394 28.11-7.88 7.103-5.955 11.376-15.465 11.376-24.98 0-9.499-4.273-18.725-11.376-24.681-6.785-5.78-14.837-8.018-28.11-8.018H87.94z"
+                                                fill="#FFF"></path>
+                                            <path
+                                                d="M415.13 161.213c30.941 0 56.022 23.58 56.022 52.709v.033c0 29.13-25.081 52.742-56.021 52.742s-56.022-23.613-56.022-52.742v-.033c0-29.13 25.082-52.71 56.022-52.71zM779.983 288.36c-26.05 18.33-221.077 149.34-558.754 212.623H724.99c30.365 0 54.992-0 54.992-0V0z"
+                                                fill="#F47216"></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="w-full max-w-96 mb-3 flex justify-center items-center">
+                            <img class='w-[45%] min-w-[90px]' src='https://www.digistore24.com/pb/webinc/063146a1/images/brand/digistore/logo/logo_wide_monotone.svg'/>
+                        </div>
+
+                        <p class="font-normal flex items-center gap-x-2 w-full flex-wrap">
+                            Excellent
+                            <span class="flex items-center gap-x-1">
+                                <svg class="h-3" fill="#ffffff" viewBox="-2.4 -2.4 28.80 28.80" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                        <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="0" fill="#005128"
+                                            strokewidth="0"></rect>
+                                    </g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <title>Trustpilot icon</title>
+                                        <path
+                                            d="M12,17.964l5.214-1.321l2.179,6.714L12,17.964z M24,9.286h-9.179L12,0.643L9.179,9.286 H0l7.429,5.357l-2.821,8.643l7.429-5.357l4.571-3.286L24,9.286L24,9.286L24,9.286L24,9.286z">
+                                        </path>
+                                    </g>
+                                </svg>
+                                <svg class="h-3" fill="#ffffff" viewBox="-2.4 -2.4 28.80 28.80" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                        <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="0" fill="#005128"
+                                            strokewidth="0"></rect>
+                                    </g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <title>Trustpilot icon</title>
+                                        <path
+                                            d="M12,17.964l5.214-1.321l2.179,6.714L12,17.964z M24,9.286h-9.179L12,0.643L9.179,9.286 H0l7.429,5.357l-2.821,8.643l7.429-5.357l4.571-3.286L24,9.286L24,9.286L24,9.286L24,9.286z">
+                                        </path>
+                                    </g>
+                                </svg>
+                                <svg class="h-3" fill="#ffffff" viewBox="-2.4 -2.4 28.80 28.80" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                        <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="0" fill="#005128"
+                                            strokewidth="0"></rect>
+                                    </g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <title>Trustpilot icon</title>
+                                        <path
+                                            d="M12,17.964l5.214-1.321l2.179,6.714L12,17.964z M24,9.286h-9.179L12,0.643L9.179,9.286 H0l7.429,5.357l-2.821,8.643l7.429-5.357l4.571-3.286L24,9.286L24,9.286L24,9.286L24,9.286z">
+                                        </path>
+                                    </g>
+                                </svg>
+                                <svg class="h-3" fill="#ffffff" viewBox="-2.4 -2.4 28.80 28.80" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                        <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="0" fill="#005128"
+                                            strokewidth="0"></rect>
+                                    </g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <title>Trustpilot icon</title>
+                                        <path
+                                            d="M12,17.964l5.214-1.321l2.179,6.714L12,17.964z M24,9.286h-9.179L12,0.643L9.179,9.286 H0l7.429,5.357l-2.821,8.643l7.429-5.357l4.571-3.286L24,9.286L24,9.286L24,9.286L24,9.286z">
+                                        </path>
+                                    </g>
+                                </svg>
+                                <svg class="h-3" fill="#ffffff" viewBox="-2.4 -2.4 28.80 28.80" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                        <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="0" fill="#005128"
+                                            strokewidth="0"></rect>
+                                    </g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <title>Trustpilot icon</title>
+                                        <path
+                                            d="M12,17.964l5.214-1.321l2.179,6.714L12,17.964z M24,9.286h-9.179L12,0.643L9.179,9.286 H0l7.429,5.357l-2.821,8.643l7.429-5.357l4.571-3.286L24,9.286L24,9.286L24,9.286L24,9.286z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </span>
+                            <span class="font-semibold">4.8</span> out of 5 based on <span
+                                class="font-semibold underline underline-offset-1">1921 reviews</span>
+                            <span class="flex items-center gap-x-1">
+                                <svg class="h-6" fill="#005128" viewBox="0 0 24 24" role="img"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <title>Trustpilot icon</title>
+                                        <path
+                                            d="M12,17.964l5.214-1.321l2.179,6.714L12,17.964z M24,9.286h-9.179L12,0.643L9.179,9.286 H0l7.429,5.357l-2.821,8.643l7.429-5.357l4.571-3.286L24,9.286L24,9.286L24,9.286L24,9.286z">
+                                        </path>
+                                    </g>
+                                </svg>
+                                Trustpilot
+                            </span>
+                        </p>
+                    </div>
+                    <img class="w-[53%] sm:max-h-36 min-h-[42rem] object-cover bg-[#2f27ce] rounded shadow shadow-[#050315]"
+                        src="https://images.pexels.com/photos/17910634/pexels-photo-17910634/free-photo-of-smiling-woman-in-sundress-on-beach.jpeg"
+                        alt="">
+                </div>
+
+                <!--
+                <p class="mb-8 w-full min-[301px]:hidden">
+                    Excellent
+                    <span class="inline-flex items-center gap-x-1">
+                        <svg class="h-4" fill="#ffffff" viewBox="-2.4 -2.4 28.80 28.80" role="img"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="0" fill="#005128"
+                                    strokewidth="0"></rect>
+                            </g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <title>Trustpilot icon</title>
+                                <path
+                                    d="M12,17.964l5.214-1.321l2.179,6.714L12,17.964z M24,9.286h-9.179L12,0.643L9.179,9.286 H0l7.429,5.357l-2.821,8.643l7.429-5.357l4.571-3.286L24,9.286L24,9.286L24,9.286L24,9.286z">
+                                </path>
+                            </g>
+                        </svg>
+                        <svg class="h-4" fill="#ffffff" viewBox="-2.4 -2.4 28.80 28.80" role="img"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="0" fill="#005128"
+                                    strokewidth="0"></rect>
+                            </g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <title>Trustpilot icon</title>
+                                <path
+                                    d="M12,17.964l5.214-1.321l2.179,6.714L12,17.964z M24,9.286h-9.179L12,0.643L9.179,9.286 H0l7.429,5.357l-2.821,8.643l7.429-5.357l4.571-3.286L24,9.286L24,9.286L24,9.286L24,9.286z">
+                                </path>
+                            </g>
+                        </svg>
+                        <svg class="h-4" fill="#ffffff" viewBox="-2.4 -2.4 28.80 28.80" role="img"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="0" fill="#005128"
+                                    strokewidth="0"></rect>
+                            </g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <title>Trustpilot icon</title>
+                                <path
+                                    d="M12,17.964l5.214-1.321l2.179,6.714L12,17.964z M24,9.286h-9.179L12,0.643L9.179,9.286 H0l7.429,5.357l-2.821,8.643l7.429-5.357l4.571-3.286L24,9.286L24,9.286L24,9.286L24,9.286z">
+                                </path>
+                            </g>
+                        </svg>
+                        <svg class="h-4" fill="#ffffff" viewBox="-2.4 -2.4 28.80 28.80" role="img"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="0" fill="#005128"
+                                    strokewidth="0"></rect>
+                            </g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <title>Trustpilot icon</title>
+                                <path
+                                    d="M12,17.964l5.214-1.321l2.179,6.714L12,17.964z M24,9.286h-9.179L12,0.643L9.179,9.286 H0l7.429,5.357l-2.821,8.643l7.429-5.357l4.571-3.286L24,9.286L24,9.286L24,9.286L24,9.286z">
+                                </path>
+                            </g>
+                        </svg>
+                        <svg class="h-4" fill="#ffffff" viewBox="-2.4 -2.4 28.80 28.80" role="img"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="0" fill="#005128"
+                                    strokewidth="0"></rect>
+                            </g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <title>Trustpilot icon</title>
+                                <path
+                                    d="M12,17.964l5.214-1.321l2.179,6.714L12,17.964z M24,9.286h-9.179L12,0.643L9.179,9.286 H0l7.429,5.357l-2.821,8.643l7.429-5.357l4.571-3.286L24,9.286L24,9.286L24,9.286L24,9.286z">
+                                </path>
+                            </g>
+                        </svg>
+                    </span>
+                    4.8 out of 5 based on <span class="font-extrabold">457 reviews</span>
+
+                    <svg class="h-6 inline-flex items-center" fill="#005128" viewBox="0 0 24 24" role="img"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <title>Trustpilot icon</title>
+                            <path
+                                d="M12,17.964l5.214-1.321l2.179,6.714L12,17.964z M24,9.286h-9.179L12,0.643L9.179,9.286 H0l7.429,5.357l-2.821,8.643l7.429-5.357l4.571-3.286L24,9.286L24,9.286L24,9.286L24,9.286z">
+                            </path>
+                        </g>
+                    </svg>
+
+                    Trustpilot
+                </p>
+                -->
+
+                <div id="youGet"
+                    class="w-full mb-3 bg-[#2f27ce] rounded pt-4 pb-2 shadow shadow-[#050315] text-[#fbfbfe]">
+                    <h2 class="text-xl md:text-2xl lg:text-4xl mb-2 font-extrabold text-center">Introduction!</h2>
+
+                    <p class="text-center font-normal text-sm mb-2">🔥 <span id="randomNumber"></span> Viewing Right
+                        NOW! 🔥</p>
+                </div>
+
+                <iframe class="aspect-video rounded shadow shadow-[#050315] w-full w-full mb-3"
+                    src="https://drive.google.com/file/d/1IUl3wfO56SANGEnhx2GLVJZ__Dj3o79y/preview"
+                    allow="autoplay"></iframe>
+
+                <div
+                    class="w-full mb-6 flex flex-wrap justify-around items-center gap-2 bg-[#2f27ce] rounded p-4 shadow shadow-[#050315]">
+                    <img class="rounded-full h-6 sm:h-10" src="https://www.wsj.com/favicon.ico">
+                    <img class="rounded-full h-6 sm:h-10" src="https://www.bloomberg.com/favicon-black.png" alt="">
+                    <img class="rounded-full h-6 sm:h-10"
+                        src="https://static-redesign.cnbcfm.com/dist/7821ea3cb72f88388591.svg" alt="">
+                    <img class="rounded-full h-6 sm:h-10"
+                        src="https://images.squarespace-cdn.com/content/v1/5bbb7c1bca525b7d8aa66d29/1545100886859-F3DIZ3AY8D3VCLX3FRGP/favicon.ico?format=100w"
+                        alt="">
+                    <img class="rounded-full h-6 sm:h-10" src="https://i.forbesimg.com/48X48-F.png" alt="">
+                </div>
+
+                <ul class="text-left mb-6 text-sm w-[95%] w-full px-2">
+                    <li class="mb-4">☑️ Are you a <span class="font-extrabold">feeling challenged</span> to meet your
+                        <span class="font-extrabold underline underline-offset-1">goals</span>?
+                    </li>
+                    <li class="mb-4">☑️ Shortcut your success with this <span class="font-extrabold">ULTIMATE HD VIDEO
+                            COURSE!</span></li>
+                    <li class="mb-4">☑️ What if <span class="font-extrabold underline underline-offset-1 ">YOU</span>,
+                        could rid yourself of maladaptive habits, and provide yourself with the support you need to
+                        thrive.</li>
+                    <li class="mb-4">☑️ What if <span class="font-extrabold underline underline-offset-1 ">YOU</span>,
+                        could get results in the next few <span class="font-extrabold">days</span>, rather than
+                        months!!!</li>
+                    <li class="mb-4">☑️ Learn the <span class="font-extrabold">exact method</span> to reduce stress and
+                        anxiety
+                    </li>
+                    <li class="mb-4">☑️ Finally learn the <span class="font-extrabold">tools</span> which can condition
+                        your <span class="font-extrabold">Mind, Body, and Spirit</span> for positive change <span
+                            class="font-extrabold">24/7</span>, 365 days a year on <span
+                            class="font-extrabold underline underline-offset-1">autopilot!</span></li>
+                    <li class="mb-4">☑️ Imagine being able to maintain positive sustainable change and get <span
+                            class="font-extrabold">REAL RESULTS!</span></li>
+                    <li class="">☑️ And much <span class="font-extrabold">MUCH</span> more...</li>
+                </ul>
+
+                <div class="w-full flex flex-col gap-y-2">
+
+                    <p class="font-extrabold text-center text-xl">Download- HD Video Course!</p>
+
+                    <button
+                        class="w-full min-w-64 max-w-96 mx-auto w-full h-14 bg-[#2f27ce] mb-2 text-[#fbfbfe] rounded shadow shadow-[#050315]">
+                        <a class="text-[#fbfbfe] w-full h-full block flex justify-center items-center py-4"
+                                href="https://www.checkout-ds24.com/product/575408">
+                                Click Here To Get Instant Access!
+                        </a>
+                    </button>
+
+                    <div class="flex justify-center items-center gap-x-2">
+                        <div class="w-7 inline-block">
+                            <svg viewBox="0 -140 780 780" enable-background="new 0 0 780 500" version="1.1"
+                                xml:space="preserve" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="rounded" stroke-linejoin="rounded"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <rect width="780" height="500" fill="#0E4595"></rect>
+                                    <path
+                                        d="m293.2 348.73l33.361-195.76h53.36l-33.385 195.76h-53.336zm246.11-191.54c-10.57-3.966-27.137-8.222-47.822-8.222-52.725 0-89.865 26.55-90.18 64.603-0.299 28.13 26.514 43.822 46.752 53.186 20.771 9.595 27.752 15.714 27.654 24.283-0.131 13.121-16.586 19.116-31.922 19.116-21.357 0-32.703-2.967-50.227-10.276l-6.876-3.11-7.489 43.823c12.463 5.464 35.51 10.198 59.438 10.443 56.09 0 92.5-26.246 92.916-66.882 0.199-22.269-14.016-39.216-44.801-53.188-18.65-9.055-30.072-15.099-29.951-24.268 0-8.137 9.668-16.839 30.557-16.839 17.449-0.27 30.09 3.535 39.938 7.5l4.781 2.26 7.232-42.429m137.31-4.223h-41.232c-12.773 0-22.332 3.487-27.941 16.234l-79.244 179.4h56.031s9.16-24.123 11.232-29.418c6.125 0 60.555 0.084 68.338 0.084 1.596 6.853 6.49 29.334 6.49 29.334h49.514l-43.188-195.64zm-65.418 126.41c4.412-11.279 21.26-54.723 21.26-54.723-0.316 0.522 4.379-11.334 7.074-18.684l3.605 16.879s10.219 46.729 12.354 56.528h-44.293zm-363.3-126.41l-52.24 133.5-5.567-27.13c-9.725-31.273-40.025-65.155-73.898-82.118l47.766 171.2 56.456-0.064 84.004-195.39h-56.521"
+                                        fill="#ffffff"></path>
+                                    <path
+                                        d="m146.92 152.96h-86.041l-0.681 4.073c66.938 16.204 111.23 55.363 129.62 102.41l-18.71-89.96c-3.23-12.395-12.597-16.094-24.186-16.527"
+                                        fill="#F2AE14"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="w-7 inline-block">
+                            <svg viewBox="0 -140 780 780" enable-background="new 0 0 780 500" version="1.1"
+                                xml:space="preserve" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="rounded" stroke-linejoin="rounded"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <rect width="780" height="500" fill="#16366F"></rect>
+                                    <path
+                                        d="m449.01 250c0 99.143-80.37 179.5-179.51 179.5s-179.5-80.361-179.5-179.5c0-99.133 80.362-179.5 179.5-179.5 99.137 0 179.51 80.37 179.51 179.5"
+                                        fill="#D9222A"></path>
+                                    <path
+                                        d="m510.49 70.496c-46.38 0-88.643 17.596-120.5 46.466-6.49 5.889-12.548 12.237-18.125 18.996h36.266c4.966 6.037 9.536 12.388 13.685 19.013h-63.635c-3.827 6.121-7.28 12.469-10.341 19.008h84.312c2.893 6.185 5.431 12.53 7.6 19.004h-99.512c-2.091 6.235-3.832 12.581-5.217 19.009h109.94c2.689 12.49 4.044 25.231 4.041 38.008 0 19.934-3.254 39.113-9.254 57.02h-99.512c2.164 6.479 4.7 12.825 7.595 19.01h84.317c-3.064 6.54-6.52 12.889-10.347 19.013h-63.625c4.154 6.629 8.73 12.979 13.685 18.996h36.258c-5.57 6.772-11.63 13.126-18.13 19.012 31.86 28.867 74.118 46.454 120.5 46.454 99.138-1e-3 179.51-80.362 179.51-179.5 0-99.13-80.37-179.5-179.51-179.5"
+                                        fill="#EE9F2D"></path>
+                                    <path
+                                        d="m666.08 350.06c0-3.201 2.592-5.801 5.796-5.801s5.796 2.6 5.796 5.801c0 3.199-2.592 5.799-5.796 5.799-3.202-1e-3 -5.797-2.598-5.796-5.799zm5.796 4.408c2.435-1e-3 4.407-1.975 4.408-4.408 0-2.433-1.972-4.404-4.404-4.404h-4e-3c-2.429-4e-3 -4.4 1.963-4.404 4.392v0.013c-3e-3 2.432 1.967 4.406 4.399 4.408 1e-3 -1e-3 3e-3 -1e-3 5e-3 -1e-3zm-0.783-1.86h-1.188v-5.094h2.149c0.45 0 0.908 0 1.305 0.254 0.413 0.278 0.646 0.77 0.646 1.278 0 0.57-0.337 1.104-0.883 1.312l0.937 2.25h-1.315l-0.78-2.016h-0.87v2.016h-1e-3zm0-2.89h0.658c0.246 0 0.504 0.02 0.725-0.1 0.196-0.125 0.296-0.359 0.296-0.584 0-0.195-0.12-0.42-0.288-0.516-0.207-0.131-0.536-0.101-0.758-0.101h-0.633v1.301zm-443.5-80.063c-2.045-0.237-2.945-0.301-4.35-0.301-11.045 0-16.637 3.789-16.637 11.268 0 4.611 2.73 7.546 6.987 7.546 7.938 0 13.659-7.56 14-18.513zm14.171 32.996h-16.146l0.371-7.676c-4.925 6.067-11.496 8.95-20.425 8.95-10.562 0-17.804-8.25-17.804-20.229 0-18.024 12.596-28.54 34.217-28.54 2.208 0 5.041 0.2 7.941 0.569 0.605-2.441 0.763-3.486 0.763-4.8 0-4.908-3.396-6.738-12.5-6.738-9.533-0.108-17.396 2.271-20.625 3.334 0.204-1.23 2.7-16.658 2.7-16.658 9.712-2.846 16.117-3.917 23.325-3.917 16.733 0 25.596 7.512 25.58 21.712 0.032 3.805-0.597 8.5-1.58 14.671-1.692 10.731-5.32 33.718-5.817 39.322zm-62.158 0h-19.488l11.163-69.997-24.925 69.997h-13.28l-1.64-69.597-11.734 69.597h-18.242l15.238-91.054h28.02l1.7 50.966 17.092-50.966h31.167l-15.071 91.054m354.98-32.996c-2.037-0.237-2.942-0.301-4.342-0.301-11.041 0-16.634 3.789-16.634 11.268 0 4.611 2.726 7.546 6.983 7.546 7.939 0 13.664-7.56 13.993-18.513zm14.183 32.996h-16.145l0.365-7.676c-4.925 6.067-11.5 8.95-20.42 8.95-10.566 0-17.8-8.25-17.8-20.229 0-18.024 12.587-28.54 34.212-28.54 2.208 0 5.037 0.2 7.934 0.569 0.604-2.441 0.763-3.486 0.763-4.8 0-4.908-3.392-6.738-12.496-6.738-9.533-0.108-17.388 2.271-20.63 3.334 0.205-1.23 2.709-16.658 2.709-16.658 9.713-2.846 16.113-3.917 23.312-3.917 16.741 0 25.604 7.512 25.588 21.712 0.032 3.805-0.597 8.5-1.58 14.671-1.682 10.731-5.32 33.718-5.812 39.322zm-220.39-1.125c-5.334 1.68-9.492 2.399-14 2.399-9.963 0-15.4-5.725-15.4-16.267-0.142-3.27 1.433-11.879 2.67-19.737 1.125-6.917 8.45-50.53 8.45-50.53h19.371l-2.262 11.209h11.7l-2.643 17.796h-11.742c-2.25 14.083-5.454 31.625-5.491 33.95 0 3.817 2.037 5.483 6.67 5.483 2.221 0 3.941-0.226 5.255-0.7l-2.578 16.397m59.391-0.6c-6.654 2.033-13.075 3.017-19.879 3-21.683-0.021-32.987-11.346-32.987-33.032 0-25.313 14.38-43.947 33.9-43.947 15.97 0 26.17 10.433 26.17 26.796 0 5.429-0.7 10.729-2.387 18.212h-38.575c-1.304 10.742 5.57 15.217 16.837 15.217 6.935 0 13.188-1.43 20.142-4.663l-3.221 18.417zm-10.887-43.9c0.107-1.543 2.054-13.217-9.013-13.217-6.171 0-10.583 4.704-12.38 13.217h21.393zm-123.42-5.017c0 9.367 4.541 15.825 14.841 20.676 7.892 3.709 9.113 4.809 9.113 8.17 0 4.617-3.48 6.7-11.192 6.7-5.812 0-11.22-0.907-17.458-2.92 0 0-2.563 16.32-2.68 17.101 4.43 0.966 8.38 1.861 20.28 2.19 20.562 0 30.058-7.829 30.058-24.75 0-10.175-3.975-16.146-13.737-20.633-8.171-3.75-9.109-4.588-9.109-8.046 0-4.004 3.238-6.046 9.538-6.046 3.825 0 9.05 0.408 14 1.113l2.775-17.175c-5.046-0.8-12.696-1.442-17.15-1.442-21.8 0-29.346 11.387-29.279 25.062m229.09-23.116c5.413 0 10.459 1.42 17.413 4.92l3.187-19.762c-2.854-1.12-12.904-7.7-21.416-7.7-13.042 0-24.066 6.47-31.82 17.15-11.31-3.746-15.959 3.825-21.659 11.367l-5.062 1.179c0.383-2.483 0.73-4.95 0.613-7.446h-17.896c-2.445 22.917-6.779 46.13-10.171 69.075l-0.884 4.976h19.496c3.254-21.143 5.038-34.681 6.121-43.842l7.342-4.084c1.096-4.08 4.529-5.458 11.416-5.292-0.926 5.008-1.389 10.09-1.383 15.184 0 24.225 13.071 39.308 34.05 39.308 5.404 0 10.042-0.712 17.221-2.657l3.431-20.76c-6.46 3.18-11.761 4.676-16.561 4.676-11.328 0-18.183-8.362-18.183-22.184-1e-3 -20.05 10.195-34.108 24.745-34.108">
+                                    </path>
+                                    <path
+                                        d="m185.21 297.24h-19.491l11.17-69.988-24.925 69.988h-13.282l-1.642-69.588-11.733 69.588h-18.243l15.238-91.042h28.02l0.788 56.362 18.904-56.362h30.267l-15.071 91.042"
+                                        fill="#ffffff"></path>
+                                    <path
+                                        d="m647.52 211.6l-4.319 26.308c-5.33-7.012-11.054-12.087-18.612-12.087-9.834 0-18.784 7.454-24.642 18.425-8.158-1.692-16.597-4.563-16.597-4.563l-4e-3 0.067c0.658-6.133 0.92-9.875 0.862-11.146h-17.9c-2.437 22.917-6.77 46.13-10.157 69.075l-0.893 4.976h19.492c2.633-17.097 4.65-31.293 6.133-42.551 6.659-6.017 9.992-11.267 16.721-10.917-2.979 7.206-4.725 15.504-4.725 24.017 0 18.513 9.367 30.725 23.534 30.725 7.141 0 12.62-2.462 17.966-8.17l-0.912 6.884h18.433l14.842-91.043h-19.222zm-24.37 73.942c-6.634 0-9.983-4.909-9.983-14.597 0-14.553 6.271-24.875 15.112-24.875 6.695 0 10.32 5.104 10.32 14.508 1e-3 14.681-6.369 24.964-15.449 24.964z">
+                                    </path>
+                                    <path
+                                        d="m233.19 264.26c-2.042-0.236-2.946-0.3-4.346-0.3-11.046 0-16.634 3.788-16.634 11.267 0 4.604 2.73 7.547 6.98 7.547 7.945-1e-3 13.666-7.559 14-18.514zm14.179 32.984h-16.146l0.367-7.663c-4.921 6.054-11.5 8.95-20.421 8.95-10.567 0-17.804-8.25-17.804-20.229 0-18.032 12.591-28.542 34.216-28.542 2.209 0 5.042 0.2 7.938 0.571 0.604-2.442 0.762-3.487 0.762-4.808 0-4.908-3.391-6.73-12.496-6.73-9.537-0.108-17.395 2.272-20.629 3.322 0.204-1.226 2.7-16.638 2.7-16.638 9.709-2.858 16.121-3.93 23.321-3.93 16.738 0 25.604 7.518 25.588 21.705 0.029 3.82-0.605 8.512-1.584 14.675-1.687 10.725-5.32 33.725-5.812 39.317zm261.38-88.592l-3.192 19.767c-6.95-3.496-12-4.921-17.407-4.921-14.551 0-24.75 14.058-24.75 34.107 0 13.821 6.857 22.181 18.183 22.181 4.8 0 10.096-1.492 16.554-4.677l-3.42 20.75c-7.184 1.959-11.816 2.672-17.226 2.672-20.976 0-34.05-15.084-34.05-39.309 0-32.55 18.059-55.3 43.888-55.3 8.507 1e-3 18.562 3.609 21.42 4.73m31.442 55.608c-2.041-0.236-2.941-0.3-4.346-0.3-11.042 0-16.634 3.788-16.634 11.267 0 4.604 2.729 7.547 6.984 7.547 7.937-1e-3 13.662-7.559 13.996-18.514zm14.179 32.984h-16.15l0.37-7.663c-4.924 6.054-11.5 8.95-20.42 8.95-10.563 0-17.804-8.25-17.804-20.229 0-18.032 12.595-28.542 34.212-28.542 2.213 0 5.042 0.2 7.941 0.571 0.601-2.442 0.763-3.487 0.763-4.808 0-4.908-3.392-6.73-12.496-6.73-9.533-0.108-17.396 2.272-20.629 3.322 0.204-1.226 2.704-16.638 2.704-16.638 9.709-2.858 16.116-3.93 23.316-3.93 16.742 0 25.604 7.518 25.583 21.705 0.034 3.82-0.595 8.512-1.579 14.675-1.682 10.725-5.324 33.725-5.811 39.317zm-220.39-1.122c-5.338 1.68-9.496 2.409-14 2.409-9.963 0-15.4-5.726-15.4-16.266-0.138-3.281 1.437-11.881 2.675-19.738 1.12-6.926 8.446-50.533 8.446-50.533h19.367l-2.259 11.212h9.942l-2.646 17.788h-9.975c-2.25 14.091-5.463 31.619-5.496 33.949 0 3.83 2.042 5.483 6.671 5.483 2.22 0 3.938-0.217 5.254-0.692l-2.579 16.388m59.392-0.591c-6.65 2.033-13.08 3.013-19.88 3-21.684-0.021-32.987-11.346-32.987-33.033 0-25.321 14.38-43.95 33.9-43.95 15.97 0 26.17 10.429 26.17 26.8 0 5.433-0.7 10.733-2.382 18.212h-38.575c-1.306 10.741 5.569 15.221 16.837 15.221 6.93 0 13.188-1.434 20.137-4.676l-3.22 18.426zm-10.892-43.912c0.117-1.538 2.059-13.217-9.013-13.217-6.166 0-10.579 4.717-12.375 13.217h21.388zm-123.42-5.004c0 9.365 4.542 15.816 14.842 20.675 7.891 3.708 9.112 4.812 9.112 8.17 0 4.617-3.483 6.7-11.187 6.7-5.817 0-11.225-0.908-17.467-2.92 0 0-2.554 16.32-2.67 17.1 4.42 0.967 8.374 1.85 20.274 2.191 20.567 0 30.059-7.829 30.059-24.746 0-10.18-3.971-16.15-13.738-20.637-8.167-3.758-9.112-4.583-9.112-8.046 0-4 3.245-6.058 9.541-6.058 3.821 0 9.046 0.42 14.004 1.125l2.771-17.18c-5.041-0.8-12.691-1.441-17.146-1.441-21.804 0-29.345 11.379-29.283 25.067m398.45 50.629h-18.437l0.917-6.893c-5.347 5.717-10.825 8.18-17.967 8.18-14.168 0-23.53-12.213-23.53-30.725 0-24.63 14.521-45.393 31.709-45.393 7.558 0 13.28 3.088 18.604 10.096l4.325-26.308h19.221l-14.842 91.043zm-28.745-17.109c9.075 0 15.45-10.283 15.45-24.953 0-9.405-3.63-14.509-10.325-14.509-8.838 0-15.116 10.317-15.116 24.875-1e-3 9.686 3.357 14.587 9.991 14.587zm-56.843-56.929c-2.439 22.917-6.773 46.13-10.162 69.063l-0.891 4.975h19.491c6.971-45.275 8.658-54.117 19.588-53.009 1.742-9.266 4.982-17.383 7.399-21.479-8.163-1.7-12.721 2.913-18.688 11.675 0.471-3.787 1.334-7.466 1.163-11.225h-17.9m-160.42 0c-2.446 22.917-6.78 46.13-10.167 69.063l-0.887 4.975h19.5c6.962-45.275 8.646-54.117 19.569-53.009 1.75-9.266 4.992-17.383 7.4-21.479-8.154-1.7-12.716 2.913-18.678 11.675 0.47-3.787 1.325-7.466 1.162-11.225h-17.899m254.57 68.242c0-3.214 2.596-5.8 5.796-5.8 3.197-3e-3 5.792 2.587 5.795 5.785v0.015c-1e-3 3.2-2.595 5.794-5.795 5.796-3.2-2e-3 -5.794-2.596-5.796-5.796zm5.796 4.404c2.432 1e-3 4.403-1.97 4.403-4.401v-2e-3c3e-3 -2.433-1.968-4.406-4.399-4.408h-4e-3c-2.435 1e-3 -4.408 1.974-4.409 4.408 3e-3 2.432 1.976 4.403 4.409 4.403zm-0.784-1.87h-1.188v-5.084h2.154c0.446 0 0.908 8e-3 1.296 0.254 0.416 0.283 0.654 0.767 0.654 1.274 0 0.575-0.338 1.113-0.888 1.317l0.941 2.236h-1.319l-0.78-2.008h-0.87v2.008 3e-3zm0-2.88h0.654c0.245 0 0.513 0.018 0.729-0.1 0.195-0.125 0.295-0.361 0.295-0.587-9e-3 -0.21-0.115-0.404-0.287-0.524-0.204-0.117-0.542-0.085-0.763-0.085h-0.629v1.296h1e-3z"
+                                        fill="#ffffff"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="w-7 inline-block">
+                            <svg viewBox="0 -140 780 780" enable-background="new 0 0 780 500" version="1.1"
+                                xml:space="preserve" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="rounded" stroke-linejoin="rounded"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <rect width="780" height="500" fill="#FFF"></rect>
+                                    <path
+                                        d="m168.38 169.85c-8.399-5.774-19.359-8.668-32.88-8.668h-52.346c-4.145 0-6.435 2.073-6.87 6.214l-21.265 133.48c-0.221 1.311 0.107 2.51 0.981 3.6 0.869 1.093 1.962 1.636 3.271 1.636h24.864c4.361 0 6.758-2.068 7.198-6.216l5.888-35.985c0.215-1.744 0.982-3.162 2.291-4.254 1.308-1.09 2.944-1.804 4.907-2.13 1.963-0.324 3.814-0.487 5.562-0.487 1.743 0 3.814 0.11 6.217 0.327 2.397 0.218 3.925 0.324 4.58 0.324 18.756 0 33.478-5.285 44.167-15.866 10.684-10.577 16.032-25.244 16.032-44.004 0-12.868-4.202-22.192-12.597-27.975zm-26.99 40.08c-1.094 7.635-3.926 12.649-8.506 15.049-4.581 2.403-11.124 3.597-19.629 3.597l-10.797 0.328 5.563-35.007c0.434-2.397 1.851-3.597 4.252-3.597h6.218c8.72 0 15.049 1.257 18.975 3.761 3.924 2.51 5.233 7.802 3.924 15.869z"
+                                        fill="#003087"></path>
+                                    <path
+                                        d="m720.79 161.18h-24.208c-2.405 0-3.821 1.2-4.253 3.599l-21.267 136.1-0.328 0.654c0 1.096 0.437 2.127 1.311 3.109 0.868 0.979 1.963 1.471 3.271 1.471h21.595c4.138 0 6.429-2.068 6.871-6.215l21.265-133.81v-0.325c-2e-3 -3.053-1.424-4.58-4.257-4.58z"
+                                        fill="#009CDE"></path>
+                                    <path
+                                        d="m428.31 213.86c0-1.088-0.438-2.126-1.306-3.106-0.875-0.981-1.857-1.474-2.945-1.474h-25.191c-2.404 0-4.366 1.096-5.89 3.271l-34.679 51.04-14.394-49.075c-1.096-3.488-3.493-5.236-7.198-5.236h-24.54c-1.093 0-2.075 0.492-2.942 1.474-0.875 0.98-1.309 2.019-1.309 3.106 0 0.44 2.127 6.871 6.379 19.303 4.252 12.434 8.833 25.848 13.741 40.244 4.908 14.394 7.468 22.031 7.688 22.898-17.886 24.43-26.826 37.518-26.826 39.26 0 2.838 1.417 4.254 4.253 4.254h25.191c2.399 0 4.361-1.088 5.89-3.271l83.427-120.4c0.433-0.433 0.651-1.193 0.651-2.289z"
+                                        fill="#003087"></path>
+                                    <path
+                                        d="m662.89 209.28h-24.865c-3.056 0-4.904 3.599-5.559 10.797-5.677-8.72-16.031-13.088-31.083-13.088-15.704 0-29.065 5.89-40.077 17.668-11.016 11.779-16.521 25.631-16.521 41.551 0 12.871 3.761 23.121 11.285 30.752 7.524 7.639 17.611 11.451 30.266 11.451 6.323 0 12.757-1.311 19.3-3.926 6.544-2.617 11.665-6.105 15.379-10.469 0 0.219-0.222 1.198-0.654 2.942-0.44 1.748-0.655 3.06-0.655 3.926 0 3.494 1.414 5.234 4.254 5.234h22.576c4.138 0 6.541-2.068 7.193-6.216l13.415-85.389c0.215-1.309-0.111-2.507-0.981-3.599-0.876-1.087-1.964-1.634-3.273-1.634zm-42.694 64.452c-5.562 5.453-12.269 8.179-20.12 8.179-6.328 0-11.449-1.742-15.377-5.234-3.928-3.483-5.891-8.282-5.891-14.396 0-8.064 2.727-14.884 8.181-20.446 5.446-5.562 12.214-8.343 20.284-8.343 6.102 0 11.174 1.8 15.212 5.397 4.032 3.599 6.055 8.563 6.055 14.888-1e-3 7.851-2.783 14.505-8.344 19.955z"
+                                        fill="#009CDE"></path>
+                                    <path
+                                        d="m291.23 209.28h-24.864c-3.058 0-4.908 3.599-5.563 10.797-5.889-8.72-16.25-13.088-31.081-13.088-15.704 0-29.065 5.89-40.078 17.668-11.016 11.779-16.521 25.631-16.521 41.551 0 12.871 3.763 23.121 11.288 30.752 7.525 7.639 17.61 11.451 30.262 11.451 6.104 0 12.433-1.311 18.975-3.926 6.543-2.617 11.778-6.105 15.704-10.469-0.875 2.616-1.309 4.907-1.309 6.868 0 3.494 1.417 5.234 4.253 5.234h22.574c4.141 0 6.543-2.068 7.198-6.216l13.413-85.389c0.215-1.309-0.112-2.507-0.981-3.599-0.873-1.087-1.962-1.634-3.27-1.634zm-42.695 64.614c-5.563 5.351-12.382 8.017-20.447 8.017-6.329 0-11.4-1.742-15.214-5.234-3.819-3.483-5.726-8.282-5.726-14.396 0-8.064 2.725-14.884 8.18-20.446 5.449-5.562 12.211-8.343 20.284-8.343 6.104 0 11.175 1.8 15.214 5.398 4.032 3.599 6.052 8.563 6.052 14.888 0 8.069-2.781 14.778-8.343 20.116z"
+                                        fill="#003087"></path>
+                                    <path
+                                        d="m540.04 169.85c-8.398-5.774-19.356-8.668-32.879-8.668h-52.02c-4.364 0-6.765 2.073-7.197 6.214l-21.266 133.48c-0.221 1.312 0.106 2.511 0.981 3.601 0.865 1.092 1.962 1.635 3.271 1.635h26.826c2.617 0 4.361-1.416 5.235-4.252l5.89-37.949c0.216-1.744 0.98-3.162 2.29-4.254 1.309-1.09 2.943-1.803 4.908-2.13 1.962-0.324 3.812-0.487 5.562-0.487 1.743 0 3.814 0.11 6.214 0.327 2.399 0.218 3.931 0.324 4.58 0.324 18.76 0 33.479-5.285 44.168-15.866 10.688-10.577 16.031-25.244 16.031-44.004 2e-3 -12.867-4.199-22.191-12.594-27.974zm-33.534 53.82c-4.799 3.271-11.997 4.906-21.592 4.906l-10.47 0.328 5.562-35.007c0.432-2.397 1.849-3.597 4.252-3.597h5.887c4.798 0 8.614 0.218 11.454 0.653 2.831 0.44 5.562 1.799 8.179 4.089 2.618 2.291 3.926 5.618 3.926 9.98 0 9.16-2.402 15.375-7.198 18.648z"
+                                        fill="#009CDE"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="w-7 inline-block">
+                            <svg viewBox="0 -140 780 780" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="rounded" stroke-linejoin="rounded"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g fill-rule="evenodd">
+                                        <path
+                                            d="M54.992 0C0 0 0 0 0 0v0C0 0 0 0 0 501h670.016C755.373 501 780 476.37 780 445.996V0C0 0 755.381 0 725.008 0H54.992z"
+                                            fill="#4D4D4D"></path>
+                                        <path
+                                            d="M327.152 161.893c8.837 0 16.248 1.784 25.268 6.09v22.751c-8.544-7.863-15.955-11.154-25.756-11.154-19.264 0-34.414 15.015-34.414 34.05 0 20.075 14.681 34.196 35.37 34.196 9.312 0 16.586-3.12 24.8-10.857v22.763c-9.341 4.14-16.911 5.776-25.756 5.776-31.278 0-55.582-22.596-55.582-51.737 0-28.826 24.951-51.878 56.07-51.878zm-97.113.627c11.546 0 22.11 3.72 30.943 10.994l-10.748 13.248c-5.35-5.646-10.41-8.028-16.564-8.028-8.853 0-15.3 4.745-15.3 10.989 0 5.354 3.619 8.188 15.944 12.482 23.365 8.044 30.29 15.176 30.29 30.926 0 19.193-14.976 32.553-36.32 32.553-15.63 0-26.994-5.795-36.458-18.872l13.268-12.03c4.73 8.61 12.622 13.222 22.42 13.222 9.163 0 15.947-5.952 15.947-13.984 0-4.164-2.055-7.734-6.158-10.258-2.066-1.195-6.158-2.977-14.2-5.647-19.291-6.538-25.91-13.527-25.91-27.185 0-16.225 14.214-28.41 32.846-28.41zm234.723 1.728h22.437l28.084 66.592 28.446-66.592h22.267l-45.494 101.686h-11.053l-44.687-101.686zm-397.348.152h30.15c33.312 0 56.534 20.382 56.534 49.641 0 14.59-7.104 28.696-19.118 38.057-10.108 7.901-21.626 11.445-37.574 11.445H67.414V164.4zm96.135 0h20.54v99.143h-20.54V164.4zm411.734 0h58.252v16.8H595.81v22.005h36.336v16.791h-36.336v26.762h37.726v16.785h-58.252V164.4zm71.858 0h30.455c23.69 0 37.265 10.71 37.265 29.272 0 15.18-8.514 25.14-23.986 28.105l33.148 41.766h-25.26l-28.429-39.828h-2.678v39.828h-20.515V164.4zm20.515 15.616v30.025h6.002c13.117 0 20.069-5.362 20.069-15.328 0-9.648-6.954-14.697-19.745-14.697h-6.326zM87.94 181.199v65.559h5.512c13.273 0 21.656-2.394 28.11-7.88 7.103-5.955 11.376-15.465 11.376-24.98 0-9.499-4.273-18.725-11.376-24.681-6.785-5.78-14.837-8.018-28.11-8.018H87.94z"
+                                            fill="#FFF"></path>
+                                        <path
+                                            d="M415.13 161.213c30.941 0 56.022 23.58 56.022 52.709v.033c0 29.13-25.081 52.742-56.021 52.742s-56.022-23.613-56.022-52.742v-.033c0-29.13 25.082-52.71 56.022-52.71zM779.983 288.36c-26.05 18.33-221.077 149.34-558.754 212.623H724.99c30.365 0 54.992-0 54.992-0V0z"
+                                            fill="#F47216"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <img class='w-[39%] max-w-[220px] mx-auto' src='https://www.digistore24.com/pb/webinc/063146a1/images/brand/digistore/logo/logo_wide_monotone.svg'/> 
+
+                    <p class="text-center">🔥 Hot Deal Expires Today! 🔥</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#fbfbfe] w-full max-w-[1012px] mx-auto px-4 mb-8 my-4 w-full text-black font-normal text-left">
+
+            <div class="flex justify-between items-center w-full gap-x-2">
+                <img class="w-[44%] sm:max-h-36 min-h-[37rem] rounded-lg shadow-md shadow-[#050315] block object-cover"
+                    src="https://images.pexels.com/photos/19539544/pexels-photo-19539544/free-photo-of-woman-wearing-cap-and-smiling.jpeg"
+                    alt="">
+                <div class="w-[49%]">
+                    <h2 class="text-xl md:text-2xl lg:text-4xl mb-6 font-extrabold">Key Features!</h2>
+                    <ul class="text-xs min-[301px]:text-sm flex flex-col gap-4">
+
+                        <li class="flex justify-start items-start gap-x-2">➡️<span><span class="font-extrabold">Recognize and Understand Stress:</span> Learn to identify the
+                            different types of stress and their effects on your body and mind.</span></li>
+                        <li class="flex justify-start items-start gap-x-2">➡️<span><span class="font-extrabold">Practical Techniques:</span> Implement cognitive-behavioral
+                            strategies, physical exercises, and mindfulness practices to manage and reduce stress.</span></li>
+                        <li class="flex justify-start items-start gap-x-2">➡️<span><span class="font-extrabold">Personalized Plans:</span> Develop customized stress management
+                            plans tailored to your needs.</span></li>
+                        <li class="flex justify-start items-start gap-x-2">➡️<span><span class="font-extrabold">Expert Guidance:</span> Gain insights from the comprehensive
+                            materials developed by professionals.</span></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="bg-[#fbfbfe] w-full max-w-[1012px] px-4 mx-auto mb-8 my-4 w-full text-black font-normal text-left">
+
+            <div class="flex justify-between items-center w-full gap-x-2">
+                <div class="w-[49%]">
+                    <h2 class="text-xl md:text-2xl lg:text-4xl mb-6 font-extrabold">Why Download <!--Enroll in -->This HD Video Course?</h2>
+                    <ul class="text-xs min-[301px]:text-sm flex flex-col gap-4">
+
+                        <li class="flex justify-start items-start gap-x-2">▶️<span><span class="font-extrabold">Comprehensive Curriculum:</span> Our course covers all aspects
+                            of stress management, ensuring you have the tools you need to handle stress effectively.</span></li>
+                        <li class="flex justify-start items-start gap-x-2">▶️<span><span class="font-extrabold">Accessible for Everyone</span> No prior knowledge or experience
+                            is required, making it easy for beginners to get started.</span></li>
+                        <li class="flex justify-start items-start gap-x-2">▶️<span><span class="font-extrabold">Improve Your Well-being:</span> Learn techniques that can
+                            improve your mental and physical health, helping you lead a more balanced and fulfilling
+                            life.</span></li>
+                        <li class="flex justify-start items-start gap-x-2">▶️<span><span class="font-extrabold">Flexible Learning:</span> Study at your own pace with our
+                            easy-to-follow modules and resources.</span></li>
+
+                    </ul>
+                </div>
+                <img class="w-[44%] sm:max-h-36 min-h-[37rem] rounded-lg shadow-md shadow-[#050315] block object-cover"
+                    src="https://images.pexels.com/photos/3807997/pexels-photo-3807997.jpeg"
+                    alt="">
+            </div>
+
+        </section>
+
+        <section class="bg-[#fbfbfe] w-full max-w-[1012px] px-4 mx-auto mb-8 my-4 w-full text-black font-normal text-left">
+
+            <div class="flex justify-between items-center w-full gap-x-2">
+                <img class="w-[44%] sm:max-h-36 min-h-[37rem] rounded-lg shadow-md shadow-[#050315] block object-cover"
+                    src="https://images.pexels.com/photos/3762807/pexels-photo-3762807.jpeg"
+                    alt="">
+                <div class="w-[49%]">
+                    <h2 class="text-xl md:text-2xl lg:text-4xl mb-6 font-extrabold">Who this course is for?</h2>
+                    <ul class="text-xs min-[301px]:text-sm flex flex-col gap-4">
+                        <li class="flex justify-start items-start gap-x-2">☑️ <span><span
+                                    class="font-extrabold underline underline-offset-1">Professionals</span> seeking to
+                                manage <span class="font-extrabold">work-related stress</span></span></li>
+                        <li class="flex justify-start items-start gap-x-2">☑️ <span><span
+                                    class="font-extrabold underline underline-offset-1">Students</span> looking to
+                                handle <span class="font-extrabold">academic pressure</span></span></li>
+                        <li class="flex justify-start items-start gap-x-2">☑️ <span><span
+                                    class="font-extrabold underline underline-offset-1">Caregivers</span> dealing with
+                                stress in personal or professional settings</span></li>
+                        <li class="flex justify-start items-start gap-x-2">☑️ <span>Individuals experiencing stress and
+                                seeking management <span class="font-extrabold">techniques</span></span></li>
+                        <li class="flex justify-start items-start gap-x-2">☑️ <span>Individuals seeking to improve their
+                                overall <span class="font-extrabold">mental and physical well-being</span></span></li>
+                        <li class="flex justify-start items-start gap-x-2">☑️ <span>Anyone interested in learning <span
+                                    class="font-extrabold">stress management</span> techniques</span></li>
+                        <li class="flex justify-start items-start gap-x-2">☑️ <span>Professionals looking to improve
+                                mental health and <span class="font-extrabold">resilience</span></span></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="mb-8 grid grid-cols-12 grid-rows-10 w-full">
+            <div
+                class="col-start-5 col-end-13 row-start-1 row-end-11 bg-[#433bff] rounded-l-2xl h-full w-full shadow shadow-[#050315] -z-50">
+            </div>
+            <div
+                class="flex justify-start items-center gap-x-4 max-w-[1012px] mx-auto w-full px-4 py-6 z-10 bg-[#fbfbfe] rounded-2xl shadow shadow-[#050315] col-start-2 col-end-12 row-start-2 row-end-4">
+                <img class="h-[5rem] aspect-square rounded-lg shadow shadow-[#050315]"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf7IgKuRN9CEh1vM8vqx2cVLzrINKTtpKg_A&s"
+                    alt="">
+                <div>
+                    <h2 class="text-2xl mb-1 font-extrabold">
+                        Jasmine H.
+                    </h2>
+                    <div class="flex justify-start items-center mb-1">
+                        <svg class="h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M12.954 1.7a1 1 0 0 0-1.908-.001l-2.184 6.92-6.861-.005a1 1 0 0 0-.566 1.825l5.498 3.762-2.067 6.546A1 1 0 0 0 6.4 21.86L12 17.854l5.594 4.007a1 1 0 0 0 1.536-1.114l-2.067-6.545 5.502-3.762a1 1 0 0 0-.566-1.826l-6.866.005-2.18-6.92Z"
+                                    fill="#7d8000"></path>
+                            </g>
+                        </svg>
+                        <svg class="h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M12.954 1.7a1 1 0 0 0-1.908-.001l-2.184 6.92-6.861-.005a1 1 0 0 0-.566 1.825l5.498 3.762-2.067 6.546A1 1 0 0 0 6.4 21.86L12 17.854l5.594 4.007a1 1 0 0 0 1.536-1.114l-2.067-6.545 5.502-3.762a1 1 0 0 0-.566-1.826l-6.866.005-2.18-6.92Z"
+                                    fill="#7d8000"></path>
+                            </g>
+                        </svg>
+                        <svg class="h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M12.954 1.7a1 1 0 0 0-1.908-.001l-2.184 6.92-6.861-.005a1 1 0 0 0-.566 1.825l5.498 3.762-2.067 6.546A1 1 0 0 0 6.4 21.86L12 17.854l5.594 4.007a1 1 0 0 0 1.536-1.114l-2.067-6.545 5.502-3.762a1 1 0 0 0-.566-1.826l-6.866.005-2.18-6.92Z"
+                                    fill="#7d8000"></path>
+                            </g>
+                        </svg>
+                        <svg class="h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M12.954 1.7a1 1 0 0 0-1.908-.001l-2.184 6.92-6.861-.005a1 1 0 0 0-.566 1.825l5.498 3.762-2.067 6.546A1 1 0 0 0 6.4 21.86L12 17.854l5.594 4.007a1 1 0 0 0 1.536-1.114l-2.067-6.545 5.502-3.762a1 1 0 0 0-.566-1.826l-6.866.005-2.18-6.92Z"
+                                    fill="#7d8000"></path>
+                            </g>
+                        </svg>
+                        <svg class="h-4" fill="#7d8000" viewBox="0 0 32 32" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#7d8000">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <title>star-half-stroke-filled</title>
+                                <path
+                                    d="M30.383 12.699c-0.1-0.303-0.381-0.519-0.713-0.519-0 0-0 0-0 0h-9.898l-3.059-9.412c-0.1-0.303-0.381-0.518-0.712-0.518-0.083 0-0.163 0.014-0.238 0.039l0.005-0.002c-0.226 0.078-0.399 0.256-0.468 0.48l-0.001 0.005-0.012-0.004-3.059 9.412h-9.897c-0.414 0-0.749 0.336-0.749 0.75 0 0.248 0.121 0.469 0.307 0.605l0.002 0.001 8.007 5.818-3.059 9.412c-0.023 0.069-0.037 0.149-0.037 0.232 0 0.414 0.336 0.75 0.75 0.75 0.165 0 0.318-0.053 0.442-0.144l-0.002 0.001 8.008-5.819 8.006 5.819c0.122 0.090 0.275 0.144 0.441 0.144 0.414 0 0.75-0.336 0.75-0.75 0-0.083-0.014-0.164-0.039-0.239l0.002 0.005-3.059-9.412 8.010-5.818c0.188-0.138 0.308-0.357 0.308-0.605 0-0.083-0.014-0.163-0.038-0.238l0.002 0.005zM20.779 18.461c-0.188 0.138-0.309 0.358-0.309 0.607 0 0.083 0.014 0.163 0.039 0.238l-0.002-0.005 2.514 7.736-6.581-4.783c-0.116-0.080-0.259-0.128-0.414-0.128-0.009 0-0.018 0-0.028 0l0.001-0v-16.701l2.514 7.737c0.1 0.303 0.381 0.519 0.713 0.519 0 0 0 0 0 0h8.135z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <p class=""><i>"The strategies shared in this course are easy to integrate into daily life and make
+                            a big difference."</i></p>
+                </div>
+            </div>
+
+            <div
+                class="flex justify-start items-center gap-x-4 max-w-[1012px] mx-auto w-full px-4 py-6 z-10 bg-[#fbfbfe] rounded-2xl shadow shadow-[#050315] col-start-2 col-end-12 row-start-5 row-end-7">
+                <img class="h-[5rem] aspect-square rounded-lg shadow shadow-[#050315]"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT32csNRGGn2RiSCVsosprs7CLjEx6akdgRxw&s"
+                    alt="">
+                <div>
+                    <h2 class="text-2xl mb-1 font-extrabold">
+                        Molly K.
+                    </h2>
+                    <div class="flex justify-start items-center mb-1">
+                        <svg class="h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M12.954 1.7a1 1 0 0 0-1.908-.001l-2.184 6.92-6.861-.005a1 1 0 0 0-.566 1.825l5.498 3.762-2.067 6.546A1 1 0 0 0 6.4 21.86L12 17.854l5.594 4.007a1 1 0 0 0 1.536-1.114l-2.067-6.545 5.502-3.762a1 1 0 0 0-.566-1.826l-6.866.005-2.18-6.92Z"
+                                    fill="#7d8000"></path>
+                            </g>
+                        </svg>
+                        <svg class="h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M12.954 1.7a1 1 0 0 0-1.908-.001l-2.184 6.92-6.861-.005a1 1 0 0 0-.566 1.825l5.498 3.762-2.067 6.546A1 1 0 0 0 6.4 21.86L12 17.854l5.594 4.007a1 1 0 0 0 1.536-1.114l-2.067-6.545 5.502-3.762a1 1 0 0 0-.566-1.826l-6.866.005-2.18-6.92Z"
+                                    fill="#7d8000"></path>
+                            </g>
+                        </svg>
+                        <svg class="h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M12.954 1.7a1 1 0 0 0-1.908-.001l-2.184 6.92-6.861-.005a1 1 0 0 0-.566 1.825l5.498 3.762-2.067 6.546A1 1 0 0 0 6.4 21.86L12 17.854l5.594 4.007a1 1 0 0 0 1.536-1.114l-2.067-6.545 5.502-3.762a1 1 0 0 0-.566-1.826l-6.866.005-2.18-6.92Z"
+                                    fill="#7d8000"></path>
+                            </g>
+                        </svg>
+                        <svg class="h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M12.954 1.7a1 1 0 0 0-1.908-.001l-2.184 6.92-6.861-.005a1 1 0 0 0-.566 1.825l5.498 3.762-2.067 6.546A1 1 0 0 0 6.4 21.86L12 17.854l5.594 4.007a1 1 0 0 0 1.536-1.114l-2.067-6.545 5.502-3.762a1 1 0 0 0-.566-1.826l-6.866.005-2.18-6.92Z"
+                                    fill="#7d8000"></path>
+                            </g>
+                        </svg>
+                        <svg class="h-4" fill="#7d8000" viewBox="0 0 32 32" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#7d8000">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <title>star-half-stroke-filled</title>
+                                <path
+                                    d="M30.383 12.699c-0.1-0.303-0.381-0.519-0.713-0.519-0 0-0 0-0 0h-9.898l-3.059-9.412c-0.1-0.303-0.381-0.518-0.712-0.518-0.083 0-0.163 0.014-0.238 0.039l0.005-0.002c-0.226 0.078-0.399 0.256-0.468 0.48l-0.001 0.005-0.012-0.004-3.059 9.412h-9.897c-0.414 0-0.749 0.336-0.749 0.75 0 0.248 0.121 0.469 0.307 0.605l0.002 0.001 8.007 5.818-3.059 9.412c-0.023 0.069-0.037 0.149-0.037 0.232 0 0.414 0.336 0.75 0.75 0.75 0.165 0 0.318-0.053 0.442-0.144l-0.002 0.001 8.008-5.819 8.006 5.819c0.122 0.090 0.275 0.144 0.441 0.144 0.414 0 0.75-0.336 0.75-0.75 0-0.083-0.014-0.164-0.039-0.239l0.002 0.005-3.059-9.412 8.010-5.818c0.188-0.138 0.308-0.357 0.308-0.605 0-0.083-0.014-0.163-0.038-0.238l0.002 0.005zM20.779 18.461c-0.188 0.138-0.309 0.358-0.309 0.607 0 0.083 0.014 0.163 0.039 0.238l-0.002-0.005 2.514 7.736-6.581-4.783c-0.116-0.080-0.259-0.128-0.414-0.128-0.009 0-0.018 0-0.028 0l0.001-0v-16.701l2.514 7.737c0.1 0.303 0.381 0.519 0.713 0.519 0 0 0 0 0 0h8.135z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <p class=""><i>"The exercises and techniques taught in this course are practical and easy to apply.
+                            I feel more in control of my stress now. Thank you!"</i></p>
+                </div>
+            </div>
+
+            <div
+                class="flex justify-start items-center gap-x-4 max-w-[1012px] mx-auto w-full px-4 py-6 z-10 bg-[#fbfbfe] rounded-2xl shadow shadow-[#050315] col-start-2 col-end-12 row-start-8 row-end-10">
+                <img class="h-[5rem] aspect-square rounded-lg shadow shadow-[#050315]"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZfdZcfqYKdt9YrJXMWdAuqEwMm8KiiMuu4A&s"
+                    alt="">
+                <div>
+                    <h2 class="text-2xl mb-1 font-extrabold">
+                        Katherine D.
+                    </h2>
+                    <div class="flex justify-start items-center mb-1">
+                        <svg class="h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M12.954 1.7a1 1 0 0 0-1.908-.001l-2.184 6.92-6.861-.005a1 1 0 0 0-.566 1.825l5.498 3.762-2.067 6.546A1 1 0 0 0 6.4 21.86L12 17.854l5.594 4.007a1 1 0 0 0 1.536-1.114l-2.067-6.545 5.502-3.762a1 1 0 0 0-.566-1.826l-6.866.005-2.18-6.92Z"
+                                    fill="#7d8000"></path>
+                            </g>
+                        </svg>
+                        <svg class="h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M12.954 1.7a1 1 0 0 0-1.908-.001l-2.184 6.92-6.861-.005a1 1 0 0 0-.566 1.825l5.498 3.762-2.067 6.546A1 1 0 0 0 6.4 21.86L12 17.854l5.594 4.007a1 1 0 0 0 1.536-1.114l-2.067-6.545 5.502-3.762a1 1 0 0 0-.566-1.826l-6.866.005-2.18-6.92Z"
+                                    fill="#7d8000"></path>
+                            </g>
+                        </svg>
+                        <svg class="h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M12.954 1.7a1 1 0 0 0-1.908-.001l-2.184 6.92-6.861-.005a1 1 0 0 0-.566 1.825l5.498 3.762-2.067 6.546A1 1 0 0 0 6.4 21.86L12 17.854l5.594 4.007a1 1 0 0 0 1.536-1.114l-2.067-6.545 5.502-3.762a1 1 0 0 0-.566-1.826l-6.866.005-2.18-6.92Z"
+                                    fill="#7d8000"></path>
+                            </g>
+                        </svg>
+                        <svg class="h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M12.954 1.7a1 1 0 0 0-1.908-.001l-2.184 6.92-6.861-.005a1 1 0 0 0-.566 1.825l5.498 3.762-2.067 6.546A1 1 0 0 0 6.4 21.86L12 17.854l5.594 4.007a1 1 0 0 0 1.536-1.114l-2.067-6.545 5.502-3.762a1 1 0 0 0-.566-1.826l-6.866.005-2.18-6.92Z"
+                                    fill="#7d8000"></path>
+                            </g>
+                        </svg>
+                        <svg class="h-4" fill="#7d8000" viewBox="0 0 32 32" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#7d8000">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <title>star-half-stroke-filled</title>
+                                <path
+                                    d="M30.383 12.699c-0.1-0.303-0.381-0.519-0.713-0.519-0 0-0 0-0 0h-9.898l-3.059-9.412c-0.1-0.303-0.381-0.518-0.712-0.518-0.083 0-0.163 0.014-0.238 0.039l0.005-0.002c-0.226 0.078-0.399 0.256-0.468 0.48l-0.001 0.005-0.012-0.004-3.059 9.412h-9.897c-0.414 0-0.749 0.336-0.749 0.75 0 0.248 0.121 0.469 0.307 0.605l0.002 0.001 8.007 5.818-3.059 9.412c-0.023 0.069-0.037 0.149-0.037 0.232 0 0.414 0.336 0.75 0.75 0.75 0.165 0 0.318-0.053 0.442-0.144l-0.002 0.001 8.008-5.819 8.006 5.819c0.122 0.090 0.275 0.144 0.441 0.144 0.414 0 0.75-0.336 0.75-0.75 0-0.083-0.014-0.164-0.039-0.239l0.002 0.005-3.059-9.412 8.010-5.818c0.188-0.138 0.308-0.357 0.308-0.605 0-0.083-0.014-0.163-0.038-0.238l0.002 0.005zM20.779 18.461c-0.188 0.138-0.309 0.358-0.309 0.607 0 0.083 0.014 0.163 0.039 0.238l-0.002-0.005 2.514 7.736-6.581-4.783c-0.116-0.080-0.259-0.128-0.414-0.128-0.009 0-0.018 0-0.028 0l0.001-0v-16.701l2.514 7.737c0.1 0.303 0.381 0.519 0.713 0.519 0 0 0 0 0 0h8.135z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <p class=""><i>"The course helped me identify stress triggers and gave me the tools to deal with
+                            them. I'm feeling more balanced and less overwhelmed."</i></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="get" class="mb-8 grid grid-cols-12 grid-rows-12 w-full">
+            <div
+                class="col-start-1 col-end-9 row-start-1 row-end-13 bg-[#433bff] rounded-r-2xl h-full w-full shadow shadow-[#050315] -z-50">
+            </div>
+            <div
+                class="max-w-[1012px] mx-auto  w-full px-6 z-10 bg-[#fbfbfe] rounded-2xl shadow shadow-[#050315] col-start-2 col-end-12 row-start-2 row-end-12">
+                <h2 class="text-2xl py-6 font-extrabold text-center">
+                    Curriculum Highlights!
+                </h2>
+                <div class="text-left pb-6 font-normal">
+                    <p class="mb-4 flex justify-start items-start gap-x-2">☑️ <span><span class="font-extrabold">How to
+                                Recognize Stress in Your Lifestyle:</span><br />
+                            Understand the concept of stress, its types, and the physiological responses to
+                            stress.<br /><span class="font-extrabold">(Value: $129)</span></span>
+                    </p>
+
+                    <p class="mb-4 flex justify-start items-start gap-x-2">☑️ <span><span class="font-extrabold">Typical
+                                Reactions to Stress and Anxiety:</span><br />
+                            Learn about the symptoms and responses to prolonged stress, including anxiety and
+                            depression.<br /><span class="font-extrabold">(Value: $133)</span></span>
+                    </p>
+
+                    <p class="mb-4 flex justify-start items-start gap-x-2">☑️ <span><span class="font-extrabold">Learn
+                                How to Handle Stress:</span><br />
+                            Discover practical tips for managing stress through diet, exercise, and time
+                            management.<br /><span class="font-extrabold">(Value: $227)</span></span>
+                    </p>
+
+                    <p class="mb-4 flex justify-start items-start gap-x-2">☑️ <span><span class="font-extrabold">How CBT
+                                Can Combat Stress:</span><br />
+                            Explore cognitive-behavioral therapy (CBT) techniques to address and manage
+                            stress.<br /><span class="font-extrabold">(Value: $129)</span></span>
+                    </p>
+
+                    <p class="mb-4 flex justify-start items-start gap-x-2">☑️ <span><span class="font-extrabold">Using
+                                Physical Therapy to Lower Stress:</span><br />
+                            Understand the role of physical exercise in reducing stress and promoting health.<br /><span
+                                class="font-extrabold">(Value: $265)</span></span>
+                    </p>
+
+                    <p class="mb-6 flex justify-start items-start gap-x-2">☑️ <span><span
+                                class="font-extrabold">Strategies for a Stress-Free Life:</span><br />
+                            Implement various relaxation and mindfulness techniques to achieve a stress-free
+                            lifestyle.<br /><span class="font-extrabold">(Value: $266)</span></span>
+                    </p>
+
+                    <h2 class="text-lg font-extrabold text-center mb-2">$1149 of Net Value</h2>
+
+                    <h2 class="text-lg text-center mb-2">You're NOT Going To Pay Anything Close To That!</h2>
+
+                    <p class="text-lg font-normal text-center mb-4">For A Limited Time ONLY You Can Get Access To All
+                        The Above
+                        For JUST... <br /><span class="line-through">$247</span>. <span
+                            class="font-extrabold">ONLY</span>...<br /><span class="font-extrabold">Download- HD Video Course!</span>
+                    </p>
+
+                    <div class="w-full flex flex-col gap-y-2">
+
+                        <div class="flex justify-center items-center gap-x-4 w-full w-full">
+                            <button
+                                class="w-[70%] h-14 bg-[#2f27ce] mb-2 text-[#fbfbfe] rounded shadow shadow-[#050315]">
+                                <a class="text-[#fbfbfe] w-full h-full block flex justify-center items-center py-4"
+                                href="https://www.checkout-ds24.com/product/575408">
+                                Click Here To Get Instant Access!
+                            </a>
+                            </button>
+                            <p class="font-extrabold text-2xl">$97</p>
+                        </div>
+
+                        <p class="font-normal text-center"><span class="font-extrabold">Save</span> $1052 <span
+                                class="font-extrabold">NOW!</span></p>
+
+                        <div class="flex justify-center items-center gap-x-2">
+                            <div class="w-7 inline-block">
+                                <svg viewBox="0 -140 780 780" enable-background="new 0 0 780 500" version="1.1"
+                                    xml:space="preserve" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="rounded" stroke-linejoin="rounded">
+                                    </g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <rect width="780" height="500" fill="#0E4595"></rect>
+                                        <path
+                                            d="m293.2 348.73l33.361-195.76h53.36l-33.385 195.76h-53.336zm246.11-191.54c-10.57-3.966-27.137-8.222-47.822-8.222-52.725 0-89.865 26.55-90.18 64.603-0.299 28.13 26.514 43.822 46.752 53.186 20.771 9.595 27.752 15.714 27.654 24.283-0.131 13.121-16.586 19.116-31.922 19.116-21.357 0-32.703-2.967-50.227-10.276l-6.876-3.11-7.489 43.823c12.463 5.464 35.51 10.198 59.438 10.443 56.09 0 92.5-26.246 92.916-66.882 0.199-22.269-14.016-39.216-44.801-53.188-18.65-9.055-30.072-15.099-29.951-24.268 0-8.137 9.668-16.839 30.557-16.839 17.449-0.27 30.09 3.535 39.938 7.5l4.781 2.26 7.232-42.429m137.31-4.223h-41.232c-12.773 0-22.332 3.487-27.941 16.234l-79.244 179.4h56.031s9.16-24.123 11.232-29.418c6.125 0 60.555 0.084 68.338 0.084 1.596 6.853 6.49 29.334 6.49 29.334h49.514l-43.188-195.64zm-65.418 126.41c4.412-11.279 21.26-54.723 21.26-54.723-0.316 0.522 4.379-11.334 7.074-18.684l3.605 16.879s10.219 46.729 12.354 56.528h-44.293zm-363.3-126.41l-52.24 133.5-5.567-27.13c-9.725-31.273-40.025-65.155-73.898-82.118l47.766 171.2 56.456-0.064 84.004-195.39h-56.521"
+                                            fill="#ffffff"></path>
+                                        <path
+                                            d="m146.92 152.96h-86.041l-0.681 4.073c66.938 16.204 111.23 55.363 129.62 102.41l-18.71-89.96c-3.23-12.395-12.597-16.094-24.186-16.527"
+                                            fill="#F2AE14"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="w-7 inline-block">
+                                <svg viewBox="0 -140 780 780" enable-background="new 0 0 780 500" version="1.1"
+                                    xml:space="preserve" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="rounded" stroke-linejoin="rounded">
+                                    </g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <rect width="780" height="500" fill="#16366F"></rect>
+                                        <path
+                                            d="m449.01 250c0 99.143-80.37 179.5-179.51 179.5s-179.5-80.361-179.5-179.5c0-99.133 80.362-179.5 179.5-179.5 99.137 0 179.51 80.37 179.51 179.5"
+                                            fill="#D9222A"></path>
+                                        <path
+                                            d="m510.49 70.496c-46.38 0-88.643 17.596-120.5 46.466-6.49 5.889-12.548 12.237-18.125 18.996h36.266c4.966 6.037 9.536 12.388 13.685 19.013h-63.635c-3.827 6.121-7.28 12.469-10.341 19.008h84.312c2.893 6.185 5.431 12.53 7.6 19.004h-99.512c-2.091 6.235-3.832 12.581-5.217 19.009h109.94c2.689 12.49 4.044 25.231 4.041 38.008 0 19.934-3.254 39.113-9.254 57.02h-99.512c2.164 6.479 4.7 12.825 7.595 19.01h84.317c-3.064 6.54-6.52 12.889-10.347 19.013h-63.625c4.154 6.629 8.73 12.979 13.685 18.996h36.258c-5.57 6.772-11.63 13.126-18.13 19.012 31.86 28.867 74.118 46.454 120.5 46.454 99.138-1e-3 179.51-80.362 179.51-179.5 0-99.13-80.37-179.5-179.51-179.5"
+                                            fill="#EE9F2D"></path>
+                                        <path
+                                            d="m666.08 350.06c0-3.201 2.592-5.801 5.796-5.801s5.796 2.6 5.796 5.801c0 3.199-2.592 5.799-5.796 5.799-3.202-1e-3 -5.797-2.598-5.796-5.799zm5.796 4.408c2.435-1e-3 4.407-1.975 4.408-4.408 0-2.433-1.972-4.404-4.404-4.404h-4e-3c-2.429-4e-3 -4.4 1.963-4.404 4.392v0.013c-3e-3 2.432 1.967 4.406 4.399 4.408 1e-3 -1e-3 3e-3 -1e-3 5e-3 -1e-3zm-0.783-1.86h-1.188v-5.094h2.149c0.45 0 0.908 0 1.305 0.254 0.413 0.278 0.646 0.77 0.646 1.278 0 0.57-0.337 1.104-0.883 1.312l0.937 2.25h-1.315l-0.78-2.016h-0.87v2.016h-1e-3zm0-2.89h0.658c0.246 0 0.504 0.02 0.725-0.1 0.196-0.125 0.296-0.359 0.296-0.584 0-0.195-0.12-0.42-0.288-0.516-0.207-0.131-0.536-0.101-0.758-0.101h-0.633v1.301zm-443.5-80.063c-2.045-0.237-2.945-0.301-4.35-0.301-11.045 0-16.637 3.789-16.637 11.268 0 4.611 2.73 7.546 6.987 7.546 7.938 0 13.659-7.56 14-18.513zm14.171 32.996h-16.146l0.371-7.676c-4.925 6.067-11.496 8.95-20.425 8.95-10.562 0-17.804-8.25-17.804-20.229 0-18.024 12.596-28.54 34.217-28.54 2.208 0 5.041 0.2 7.941 0.569 0.605-2.441 0.763-3.486 0.763-4.8 0-4.908-3.396-6.738-12.5-6.738-9.533-0.108-17.396 2.271-20.625 3.334 0.204-1.23 2.7-16.658 2.7-16.658 9.712-2.846 16.117-3.917 23.325-3.917 16.733 0 25.596 7.512 25.58 21.712 0.032 3.805-0.597 8.5-1.58 14.671-1.692 10.731-5.32 33.718-5.817 39.322zm-62.158 0h-19.488l11.163-69.997-24.925 69.997h-13.28l-1.64-69.597-11.734 69.597h-18.242l15.238-91.054h28.02l1.7 50.966 17.092-50.966h31.167l-15.071 91.054m354.98-32.996c-2.037-0.237-2.942-0.301-4.342-0.301-11.041 0-16.634 3.789-16.634 11.268 0 4.611 2.726 7.546 6.983 7.546 7.939 0 13.664-7.56 13.993-18.513zm14.183 32.996h-16.145l0.365-7.676c-4.925 6.067-11.5 8.95-20.42 8.95-10.566 0-17.8-8.25-17.8-20.229 0-18.024 12.587-28.54 34.212-28.54 2.208 0 5.037 0.2 7.934 0.569 0.604-2.441 0.763-3.486 0.763-4.8 0-4.908-3.392-6.738-12.496-6.738-9.533-0.108-17.388 2.271-20.63 3.334 0.205-1.23 2.709-16.658 2.709-16.658 9.713-2.846 16.113-3.917 23.312-3.917 16.741 0 25.604 7.512 25.588 21.712 0.032 3.805-0.597 8.5-1.58 14.671-1.682 10.731-5.32 33.718-5.812 39.322zm-220.39-1.125c-5.334 1.68-9.492 2.399-14 2.399-9.963 0-15.4-5.725-15.4-16.267-0.142-3.27 1.433-11.879 2.67-19.737 1.125-6.917 8.45-50.53 8.45-50.53h19.371l-2.262 11.209h11.7l-2.643 17.796h-11.742c-2.25 14.083-5.454 31.625-5.491 33.95 0 3.817 2.037 5.483 6.67 5.483 2.221 0 3.941-0.226 5.255-0.7l-2.578 16.397m59.391-0.6c-6.654 2.033-13.075 3.017-19.879 3-21.683-0.021-32.987-11.346-32.987-33.032 0-25.313 14.38-43.947 33.9-43.947 15.97 0 26.17 10.433 26.17 26.796 0 5.429-0.7 10.729-2.387 18.212h-38.575c-1.304 10.742 5.57 15.217 16.837 15.217 6.935 0 13.188-1.43 20.142-4.663l-3.221 18.417zm-10.887-43.9c0.107-1.543 2.054-13.217-9.013-13.217-6.171 0-10.583 4.704-12.38 13.217h21.393zm-123.42-5.017c0 9.367 4.541 15.825 14.841 20.676 7.892 3.709 9.113 4.809 9.113 8.17 0 4.617-3.48 6.7-11.192 6.7-5.812 0-11.22-0.907-17.458-2.92 0 0-2.563 16.32-2.68 17.101 4.43 0.966 8.38 1.861 20.28 2.19 20.562 0 30.058-7.829 30.058-24.75 0-10.175-3.975-16.146-13.737-20.633-8.171-3.75-9.109-4.588-9.109-8.046 0-4.004 3.238-6.046 9.538-6.046 3.825 0 9.05 0.408 14 1.113l2.775-17.175c-5.046-0.8-12.696-1.442-17.15-1.442-21.8 0-29.346 11.387-29.279 25.062m229.09-23.116c5.413 0 10.459 1.42 17.413 4.92l3.187-19.762c-2.854-1.12-12.904-7.7-21.416-7.7-13.042 0-24.066 6.47-31.82 17.15-11.31-3.746-15.959 3.825-21.659 11.367l-5.062 1.179c0.383-2.483 0.73-4.95 0.613-7.446h-17.896c-2.445 22.917-6.779 46.13-10.171 69.075l-0.884 4.976h19.496c3.254-21.143 5.038-34.681 6.121-43.842l7.342-4.084c1.096-4.08 4.529-5.458 11.416-5.292-0.926 5.008-1.389 10.09-1.383 15.184 0 24.225 13.071 39.308 34.05 39.308 5.404 0 10.042-0.712 17.221-2.657l3.431-20.76c-6.46 3.18-11.761 4.676-16.561 4.676-11.328 0-18.183-8.362-18.183-22.184-1e-3 -20.05 10.195-34.108 24.745-34.108">
+                                        </path>
+                                        <path
+                                            d="m185.21 297.24h-19.491l11.17-69.988-24.925 69.988h-13.282l-1.642-69.588-11.733 69.588h-18.243l15.238-91.042h28.02l0.788 56.362 18.904-56.362h30.267l-15.071 91.042"
+                                            fill="#ffffff"></path>
+                                        <path
+                                            d="m647.52 211.6l-4.319 26.308c-5.33-7.012-11.054-12.087-18.612-12.087-9.834 0-18.784 7.454-24.642 18.425-8.158-1.692-16.597-4.563-16.597-4.563l-4e-3 0.067c0.658-6.133 0.92-9.875 0.862-11.146h-17.9c-2.437 22.917-6.77 46.13-10.157 69.075l-0.893 4.976h19.492c2.633-17.097 4.65-31.293 6.133-42.551 6.659-6.017 9.992-11.267 16.721-10.917-2.979 7.206-4.725 15.504-4.725 24.017 0 18.513 9.367 30.725 23.534 30.725 7.141 0 12.62-2.462 17.966-8.17l-0.912 6.884h18.433l14.842-91.043h-19.222zm-24.37 73.942c-6.634 0-9.983-4.909-9.983-14.597 0-14.553 6.271-24.875 15.112-24.875 6.695 0 10.32 5.104 10.32 14.508 1e-3 14.681-6.369 24.964-15.449 24.964z">
+                                        </path>
+                                        <path
+                                            d="m233.19 264.26c-2.042-0.236-2.946-0.3-4.346-0.3-11.046 0-16.634 3.788-16.634 11.267 0 4.604 2.73 7.547 6.98 7.547 7.945-1e-3 13.666-7.559 14-18.514zm14.179 32.984h-16.146l0.367-7.663c-4.921 6.054-11.5 8.95-20.421 8.95-10.567 0-17.804-8.25-17.804-20.229 0-18.032 12.591-28.542 34.216-28.542 2.209 0 5.042 0.2 7.938 0.571 0.604-2.442 0.762-3.487 0.762-4.808 0-4.908-3.391-6.73-12.496-6.73-9.537-0.108-17.395 2.272-20.629 3.322 0.204-1.226 2.7-16.638 2.7-16.638 9.709-2.858 16.121-3.93 23.321-3.93 16.738 0 25.604 7.518 25.588 21.705 0.029 3.82-0.605 8.512-1.584 14.675-1.687 10.725-5.32 33.725-5.812 39.317zm261.38-88.592l-3.192 19.767c-6.95-3.496-12-4.921-17.407-4.921-14.551 0-24.75 14.058-24.75 34.107 0 13.821 6.857 22.181 18.183 22.181 4.8 0 10.096-1.492 16.554-4.677l-3.42 20.75c-7.184 1.959-11.816 2.672-17.226 2.672-20.976 0-34.05-15.084-34.05-39.309 0-32.55 18.059-55.3 43.888-55.3 8.507 1e-3 18.562 3.609 21.42 4.73m31.442 55.608c-2.041-0.236-2.941-0.3-4.346-0.3-11.042 0-16.634 3.788-16.634 11.267 0 4.604 2.729 7.547 6.984 7.547 7.937-1e-3 13.662-7.559 13.996-18.514zm14.179 32.984h-16.15l0.37-7.663c-4.924 6.054-11.5 8.95-20.42 8.95-10.563 0-17.804-8.25-17.804-20.229 0-18.032 12.595-28.542 34.212-28.542 2.213 0 5.042 0.2 7.941 0.571 0.601-2.442 0.763-3.487 0.763-4.808 0-4.908-3.392-6.73-12.496-6.73-9.533-0.108-17.396 2.272-20.629 3.322 0.204-1.226 2.704-16.638 2.704-16.638 9.709-2.858 16.116-3.93 23.316-3.93 16.742 0 25.604 7.518 25.583 21.705 0.034 3.82-0.595 8.512-1.579 14.675-1.682 10.725-5.324 33.725-5.811 39.317zm-220.39-1.122c-5.338 1.68-9.496 2.409-14 2.409-9.963 0-15.4-5.726-15.4-16.266-0.138-3.281 1.437-11.881 2.675-19.738 1.12-6.926 8.446-50.533 8.446-50.533h19.367l-2.259 11.212h9.942l-2.646 17.788h-9.975c-2.25 14.091-5.463 31.619-5.496 33.949 0 3.83 2.042 5.483 6.671 5.483 2.22 0 3.938-0.217 5.254-0.692l-2.579 16.388m59.392-0.591c-6.65 2.033-13.08 3.013-19.88 3-21.684-0.021-32.987-11.346-32.987-33.033 0-25.321 14.38-43.95 33.9-43.95 15.97 0 26.17 10.429 26.17 26.8 0 5.433-0.7 10.733-2.382 18.212h-38.575c-1.306 10.741 5.569 15.221 16.837 15.221 6.93 0 13.188-1.434 20.137-4.676l-3.22 18.426zm-10.892-43.912c0.117-1.538 2.059-13.217-9.013-13.217-6.166 0-10.579 4.717-12.375 13.217h21.388zm-123.42-5.004c0 9.365 4.542 15.816 14.842 20.675 7.891 3.708 9.112 4.812 9.112 8.17 0 4.617-3.483 6.7-11.187 6.7-5.817 0-11.225-0.908-17.467-2.92 0 0-2.554 16.32-2.67 17.1 4.42 0.967 8.374 1.85 20.274 2.191 20.567 0 30.059-7.829 30.059-24.746 0-10.18-3.971-16.15-13.738-20.637-8.167-3.758-9.112-4.583-9.112-8.046 0-4 3.245-6.058 9.541-6.058 3.821 0 9.046 0.42 14.004 1.125l2.771-17.18c-5.041-0.8-12.691-1.441-17.146-1.441-21.804 0-29.345 11.379-29.283 25.067m398.45 50.629h-18.437l0.917-6.893c-5.347 5.717-10.825 8.18-17.967 8.18-14.168 0-23.53-12.213-23.53-30.725 0-24.63 14.521-45.393 31.709-45.393 7.558 0 13.28 3.088 18.604 10.096l4.325-26.308h19.221l-14.842 91.043zm-28.745-17.109c9.075 0 15.45-10.283 15.45-24.953 0-9.405-3.63-14.509-10.325-14.509-8.838 0-15.116 10.317-15.116 24.875-1e-3 9.686 3.357 14.587 9.991 14.587zm-56.843-56.929c-2.439 22.917-6.773 46.13-10.162 69.063l-0.891 4.975h19.491c6.971-45.275 8.658-54.117 19.588-53.009 1.742-9.266 4.982-17.383 7.399-21.479-8.163-1.7-12.721 2.913-18.688 11.675 0.471-3.787 1.334-7.466 1.163-11.225h-17.9m-160.42 0c-2.446 22.917-6.78 46.13-10.167 69.063l-0.887 4.975h19.5c6.962-45.275 8.646-54.117 19.569-53.009 1.75-9.266 4.992-17.383 7.4-21.479-8.154-1.7-12.716 2.913-18.678 11.675 0.47-3.787 1.325-7.466 1.162-11.225h-17.899m254.57 68.242c0-3.214 2.596-5.8 5.796-5.8 3.197-3e-3 5.792 2.587 5.795 5.785v0.015c-1e-3 3.2-2.595 5.794-5.795 5.796-3.2-2e-3 -5.794-2.596-5.796-5.796zm5.796 4.404c2.432 1e-3 4.403-1.97 4.403-4.401v-2e-3c3e-3 -2.433-1.968-4.406-4.399-4.408h-4e-3c-2.435 1e-3 -4.408 1.974-4.409 4.408 3e-3 2.432 1.976 4.403 4.409 4.403zm-0.784-1.87h-1.188v-5.084h2.154c0.446 0 0.908 8e-3 1.296 0.254 0.416 0.283 0.654 0.767 0.654 1.274 0 0.575-0.338 1.113-0.888 1.317l0.941 2.236h-1.319l-0.78-2.008h-0.87v2.008 3e-3zm0-2.88h0.654c0.245 0 0.513 0.018 0.729-0.1 0.195-0.125 0.295-0.361 0.295-0.587-9e-3 -0.21-0.115-0.404-0.287-0.524-0.204-0.117-0.542-0.085-0.763-0.085h-0.629v1.296h1e-3z"
+                                            fill="#ffffff"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="w-7 inline-block">
+                                <svg viewBox="0 -140 780 780" enable-background="new 0 0 780 500" version="1.1"
+                                    xml:space="preserve" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="rounded" stroke-linejoin="rounded">
+                                    </g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <rect width="780" height="500" fill="#FFF"></rect>
+                                        <path
+                                            d="m168.38 169.85c-8.399-5.774-19.359-8.668-32.88-8.668h-52.346c-4.145 0-6.435 2.073-6.87 6.214l-21.265 133.48c-0.221 1.311 0.107 2.51 0.981 3.6 0.869 1.093 1.962 1.636 3.271 1.636h24.864c4.361 0 6.758-2.068 7.198-6.216l5.888-35.985c0.215-1.744 0.982-3.162 2.291-4.254 1.308-1.09 2.944-1.804 4.907-2.13 1.963-0.324 3.814-0.487 5.562-0.487 1.743 0 3.814 0.11 6.217 0.327 2.397 0.218 3.925 0.324 4.58 0.324 18.756 0 33.478-5.285 44.167-15.866 10.684-10.577 16.032-25.244 16.032-44.004 0-12.868-4.202-22.192-12.597-27.975zm-26.99 40.08c-1.094 7.635-3.926 12.649-8.506 15.049-4.581 2.403-11.124 3.597-19.629 3.597l-10.797 0.328 5.563-35.007c0.434-2.397 1.851-3.597 4.252-3.597h6.218c8.72 0 15.049 1.257 18.975 3.761 3.924 2.51 5.233 7.802 3.924 15.869z"
+                                            fill="#003087"></path>
+                                        <path
+                                            d="m720.79 161.18h-24.208c-2.405 0-3.821 1.2-4.253 3.599l-21.267 136.1-0.328 0.654c0 1.096 0.437 2.127 1.311 3.109 0.868 0.979 1.963 1.471 3.271 1.471h21.595c4.138 0 6.429-2.068 6.871-6.215l21.265-133.81v-0.325c-2e-3 -3.053-1.424-4.58-4.257-4.58z"
+                                            fill="#009CDE"></path>
+                                        <path
+                                            d="m428.31 213.86c0-1.088-0.438-2.126-1.306-3.106-0.875-0.981-1.857-1.474-2.945-1.474h-25.191c-2.404 0-4.366 1.096-5.89 3.271l-34.679 51.04-14.394-49.075c-1.096-3.488-3.493-5.236-7.198-5.236h-24.54c-1.093 0-2.075 0.492-2.942 1.474-0.875 0.98-1.309 2.019-1.309 3.106 0 0.44 2.127 6.871 6.379 19.303 4.252 12.434 8.833 25.848 13.741 40.244 4.908 14.394 7.468 22.031 7.688 22.898-17.886 24.43-26.826 37.518-26.826 39.26 0 2.838 1.417 4.254 4.253 4.254h25.191c2.399 0 4.361-1.088 5.89-3.271l83.427-120.4c0.433-0.433 0.651-1.193 0.651-2.289z"
+                                            fill="#003087"></path>
+                                        <path
+                                            d="m662.89 209.28h-24.865c-3.056 0-4.904 3.599-5.559 10.797-5.677-8.72-16.031-13.088-31.083-13.088-15.704 0-29.065 5.89-40.077 17.668-11.016 11.779-16.521 25.631-16.521 41.551 0 12.871 3.761 23.121 11.285 30.752 7.524 7.639 17.611 11.451 30.266 11.451 6.323 0 12.757-1.311 19.3-3.926 6.544-2.617 11.665-6.105 15.379-10.469 0 0.219-0.222 1.198-0.654 2.942-0.44 1.748-0.655 3.06-0.655 3.926 0 3.494 1.414 5.234 4.254 5.234h22.576c4.138 0 6.541-2.068 7.193-6.216l13.415-85.389c0.215-1.309-0.111-2.507-0.981-3.599-0.876-1.087-1.964-1.634-3.273-1.634zm-42.694 64.452c-5.562 5.453-12.269 8.179-20.12 8.179-6.328 0-11.449-1.742-15.377-5.234-3.928-3.483-5.891-8.282-5.891-14.396 0-8.064 2.727-14.884 8.181-20.446 5.446-5.562 12.214-8.343 20.284-8.343 6.102 0 11.174 1.8 15.212 5.397 4.032 3.599 6.055 8.563 6.055 14.888-1e-3 7.851-2.783 14.505-8.344 19.955z"
+                                            fill="#009CDE"></path>
+                                        <path
+                                            d="m291.23 209.28h-24.864c-3.058 0-4.908 3.599-5.563 10.797-5.889-8.72-16.25-13.088-31.081-13.088-15.704 0-29.065 5.89-40.078 17.668-11.016 11.779-16.521 25.631-16.521 41.551 0 12.871 3.763 23.121 11.288 30.752 7.525 7.639 17.61 11.451 30.262 11.451 6.104 0 12.433-1.311 18.975-3.926 6.543-2.617 11.778-6.105 15.704-10.469-0.875 2.616-1.309 4.907-1.309 6.868 0 3.494 1.417 5.234 4.253 5.234h22.574c4.141 0 6.543-2.068 7.198-6.216l13.413-85.389c0.215-1.309-0.112-2.507-0.981-3.599-0.873-1.087-1.962-1.634-3.27-1.634zm-42.695 64.614c-5.563 5.351-12.382 8.017-20.447 8.017-6.329 0-11.4-1.742-15.214-5.234-3.819-3.483-5.726-8.282-5.726-14.396 0-8.064 2.725-14.884 8.18-20.446 5.449-5.562 12.211-8.343 20.284-8.343 6.104 0 11.175 1.8 15.214 5.398 4.032 3.599 6.052 8.563 6.052 14.888 0 8.069-2.781 14.778-8.343 20.116z"
+                                            fill="#003087"></path>
+                                        <path
+                                            d="m540.04 169.85c-8.398-5.774-19.356-8.668-32.879-8.668h-52.02c-4.364 0-6.765 2.073-7.197 6.214l-21.266 133.48c-0.221 1.312 0.106 2.511 0.981 3.601 0.865 1.092 1.962 1.635 3.271 1.635h26.826c2.617 0 4.361-1.416 5.235-4.252l5.89-37.949c0.216-1.744 0.98-3.162 2.29-4.254 1.309-1.09 2.943-1.803 4.908-2.13 1.962-0.324 3.812-0.487 5.562-0.487 1.743 0 3.814 0.11 6.214 0.327 2.399 0.218 3.931 0.324 4.58 0.324 18.76 0 33.479-5.285 44.168-15.866 10.688-10.577 16.031-25.244 16.031-44.004 2e-3 -12.867-4.199-22.191-12.594-27.974zm-33.534 53.82c-4.799 3.271-11.997 4.906-21.592 4.906l-10.47 0.328 5.562-35.007c0.432-2.397 1.849-3.597 4.252-3.597h5.887c4.798 0 8.614 0.218 11.454 0.653 2.831 0.44 5.562 1.799 8.179 4.089 2.618 2.291 3.926 5.618 3.926 9.98 0 9.16-2.402 15.375-7.198 18.648z"
+                                            fill="#009CDE"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="w-7 inline-block">
+                                <svg viewBox="0 -140 780 780" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="rounded" stroke-linejoin="rounded">
+                                    </g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g fill-rule="evenodd">
+                                            <path
+                                                d="M54.992 0C0 0 0 0 0 0v0C0 0 0 0 0 501h670.016C755.373 501 780 476.37 780 445.996V0C0 0 755.381 0 725.008 0H54.992z"
+                                                fill="#4D4D4D"></path>
+                                            <path
+                                                d="M327.152 161.893c8.837 0 16.248 1.784 25.268 6.09v22.751c-8.544-7.863-15.955-11.154-25.756-11.154-19.264 0-34.414 15.015-34.414 34.05 0 20.075 14.681 34.196 35.37 34.196 9.312 0 16.586-3.12 24.8-10.857v22.763c-9.341 4.14-16.911 5.776-25.756 5.776-31.278 0-55.582-22.596-55.582-51.737 0-28.826 24.951-51.878 56.07-51.878zm-97.113.627c11.546 0 22.11 3.72 30.943 10.994l-10.748 13.248c-5.35-5.646-10.41-8.028-16.564-8.028-8.853 0-15.3 4.745-15.3 10.989 0 5.354 3.619 8.188 15.944 12.482 23.365 8.044 30.29 15.176 30.29 30.926 0 19.193-14.976 32.553-36.32 32.553-15.63 0-26.994-5.795-36.458-18.872l13.268-12.03c4.73 8.61 12.622 13.222 22.42 13.222 9.163 0 15.947-5.952 15.947-13.984 0-4.164-2.055-7.734-6.158-10.258-2.066-1.195-6.158-2.977-14.2-5.647-19.291-6.538-25.91-13.527-25.91-27.185 0-16.225 14.214-28.41 32.846-28.41zm234.723 1.728h22.437l28.084 66.592 28.446-66.592h22.267l-45.494 101.686h-11.053l-44.687-101.686zm-397.348.152h30.15c33.312 0 56.534 20.382 56.534 49.641 0 14.59-7.104 28.696-19.118 38.057-10.108 7.901-21.626 11.445-37.574 11.445H67.414V164.4zm96.135 0h20.54v99.143h-20.54V164.4zm411.734 0h58.252v16.8H595.81v22.005h36.336v16.791h-36.336v26.762h37.726v16.785h-58.252V164.4zm71.858 0h30.455c23.69 0 37.265 10.71 37.265 29.272 0 15.18-8.514 25.14-23.986 28.105l33.148 41.766h-25.26l-28.429-39.828h-2.678v39.828h-20.515V164.4zm20.515 15.616v30.025h6.002c13.117 0 20.069-5.362 20.069-15.328 0-9.648-6.954-14.697-19.745-14.697h-6.326zM87.94 181.199v65.559h5.512c13.273 0 21.656-2.394 28.11-7.88 7.103-5.955 11.376-15.465 11.376-24.98 0-9.499-4.273-18.725-11.376-24.681-6.785-5.78-14.837-8.018-28.11-8.018H87.94z"
+                                                fill="#FFF"></path>
+                                            <path
+                                                d="M415.13 161.213c30.941 0 56.022 23.58 56.022 52.709v.033c0 29.13-25.081 52.742-56.021 52.742s-56.022-23.613-56.022-52.742v-.033c0-29.13 25.082-52.71 56.022-52.71zM779.983 288.36c-26.05 18.33-221.077 149.34-558.754 212.623H724.99c30.365 0 54.992-0 54.992-0V0z"
+                                                fill="#F47216"></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                        <p class="text-center">🔥 Hot Deal Expires Today! 🔥</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section
+            class="bg-[#272727] text-[#fbfbfe] w-[97%] max-w-[1012px] px-6 mb-8 my-4 w-full text-left mx-auto py-6 rounded-2xl">
+
+            <div class="flex justify-center items-center gap-x-4">
+                <img class="h-8 mb-4"
+                    src="https://media.licdn.com/dms/image/v2/D4D22AQHVEqUu_74bdw/feedshare-shrink_800/feedshare-shrink_800/0/1727341666265?e=1730332800&v=beta&t=V0HYuJsaU4aYgV3RkrMa-Vn1Z6Exve5glfSc7UhyfjE">
+                <h2 class="text-2xl font-extrabold mb-4">
+                    Your <span class="underline underline-offset-1">60-Day</span> Iron Clad Money-Back Guarantee!
+                </h2>
+            </div>
+
+            <p class="mb-4">Invest in Stress-Proof HD Video Course today and all the risk is on us.
+            </p>
+            <p class="mb-4">Put the course & system through its paces for <span class="underline underline-offset-1">60
+                    days</span> on our dime.
+            </p>
+            <p class="mb-4">If you have a question or need help, support is just one click away.</p>
+            <p class="mb-4">In the unlikely event, you’re not thrilled, we INSIST you let us know.
+            </p>
+            <p class="mb-4">If we can’t help you, we’ll refund every penny of your purchase, no questions asked.
+            </p>
+            <p class="mb-4">YES! You’re covered from A-Z.
+            </p>
+            <p class="">So hit the button above to get started <span class="font-extrabold">RIGHT NOW</span>.
+            </p>
+        </section>
+
+        <section
+            class="bg-[#fbfbfe] w-full max-w-[1012px] px-4 mx-auto mb-8 my-4 w-full text-black font-normal text-left">
+
+            <div class="flex justify-between items-center w-full gap-x-2">
+                <div class="w-[49%]">
+                    <h2 class="text-xl md:text-2xl lg:text-4xl mb-6 font-extrabold">FAQs for Stress Management Course
+                    </h2>
+                    <ul class="text-xs flex flex-col gap-4">
+                        <li>
+                            <span class="font-extrabold">💭 Do I need prior experience in stress management to take this
+                                course?</span><br />
+                            No, this course is designed for beginners and doesn’t require any prior experience or
+                            knowledge in stress management.
+                        </li>
+                        <li>
+                            <span class="font-extrabold">💭 What can I expect to learn from this course?</span><br />
+                            You will learn strategies to identify, manage, and reduce stress, focusing on various
+                            techniques like CBT, physical exercise, and mindfulness.
+                        </li>
+                        <li>
+                            <span class="font-extrabold">💭 How long does it take to complete the course?</span><br />
+                            The course is designed to be flexible, so you can complete it at your own pace, typically
+                            within a few hours.
+                        </li>
+                        <li>
+                            <span class="font-extrabold">💭 How is the training delivered?</span><br />
+                            You will get access to <span class="font-extrabold">high-quality videos</span> that you can <span class="font-extrabold">download</span> and view anytime you want.
+                            Go through them at your own pace, pause, rewind, stop at your leisure.
+                        </li>
+                        <li>
+                            <span class="font-extrabold">💭 Is there a guarantee?</span><br />
+                            Yes, you get a 30-day money-back guarantee. Test out this product for a FULL 30 days with no
+                            risk whatsoever!<br />
+                            <span class="font-extrabold">Email Us: adaptichatai@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <img class="w-[44%] sm:max-h-36 min-h-[44rem] rounded-lg shadow-md shadow-[#050315] block object-cover"
+                    src="https://images.pexels.com/photos/7327772/pexels-photo-7327772.jpeg"
+                    alt="">
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="w-full h-20 bg-gray-500 flex flex-col justify-center items-center">
+        
+        <div class="flex justify-center items-center gap-2">
+            <p class="text-center text-black"><a href="./privacy.html#privacy">Privacy Policy</a></p>
+            |
+            <p class="text-center text-black"><a href="./privacy.html#terms">Terms & Conditions</a></p>
+            |
+            <p class="text-center text-black"><a href="mailto:adaptichatai@gmail.com">Contact Us</a></p>
+        </div>
+    
+        <p class="text-center text-black"> Copyright - All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>
